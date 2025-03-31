@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+	<section>
+    	{% for post in site.links limit:1 %}
+			<a class="button" title="{{ link.title1 }}" href="{{ link.url1 }}">
+			{{ link.title1 }}</a>
+			{% if link.title2 %}
+				<a class="button" title="{{ link.title2 }}" href="{{ link.url2 }}">
+				{{ link.title2 }}</a>
+			{% endif %}
+		{% endfor %}
+		<div class="more">
+			<a class="button2" title="All Posts" href="/tags/">All Posts</a>
+		</div>
+	</section>

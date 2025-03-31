@@ -1,0 +1,14 @@
+{
+  "name": "anomalyv6",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
+    "build": "tinacms build",
+    "build-local": "tinacms build --local --skip-indexing --skip-cloud-checks",
+    "start": "tinacms build && \"bundle exec jekyll serve\""
+  },
+  "dependencies": {
+    "@tinacms/cli": "^1.9.3",
+    "tinacms": "^2.7.3"
+  }
+}

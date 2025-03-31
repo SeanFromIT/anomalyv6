@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /admin/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://anomalyresponse.com/sitemap.xml

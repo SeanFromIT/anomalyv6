@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Sean Feeney -- Founder -- @SeanFromIT
+
+# THANKS
+
+    Gary Webster, Kenny Young, 
+    Karen Bader, Sally Mills, 
+    Owen Huff, Tara Davidson
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, Jekyll,
+    GitHub, TinaCMS
