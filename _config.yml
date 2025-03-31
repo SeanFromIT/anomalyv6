@@ -14,41 +14,34 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 author: Sean Feeney
-copyright: 2020 All Rights Reserved.
-title: Sean Feeney for SRP Board of Directors
-description: Vote Sean Feeney for clean energy on the SRP Board of Directors. Election Day is April 7, 2020.
-keywords: sean, feeney, sean feeney, arizona, phoenix, sean feeney arizona, sean feeney phoenix, patrick, sean patrick feeney, board, directors, board of directors, governors, board of governors, office, maricopa, election, 2020, april 7, april 7th, candidate, candidates, elections, clean energy, solar, wind, power, progressive, democrat, democrats, democratic, party, platform, politics, political, science, vote, smart, ballot, government, state, national, nation, united, states, us, az, league of women voters, information, web site, website, blog, photo, photo gallery, photo album, video, videos, chat, bio, home page, homepage
+copyright: 2001-2025 All Rights Reserved.
+title: Anomaly Response Network
+description: The Anomaly Response Network is dedicated to the objective study of all forms of unusual phenomena.
+long_description: The Anomaly Response Network is dedicated to the objective study of all forms of unusual phenomena including crop circles, ghosts, UFOs, bigfoot, abductions and mutilations.
+keywords: ufo, ufos, ghost, ghosts, ghosthunt, hunter, hunt, bigfoot, bigfeet, crop, circle, circles, abduction, abductions, mutilation, mutilations, arizona, phoenix, unidentified, flying, objects, uap, unusual, anomaly, strange, anomalous, unexplained, mystery, mysterious, reports, report, sightings, sighting, phenomena, phenomenon, skeptic, skeptical, critical, saucer, cover, up, cover-up, conspiracy, fumes, light, lights, smell, smells, event, events, cattle, county, maricopa, counties, wpafb, wright, patterson, luke, air, space, force, base, bases, aatip, aerospace, threat, nkypyg, northern, kentucky, paranormal, youth, group, plane, aerial, home page, homepage
 lang: en-US
-google_analytics: UA-936138-23
+google_analytics: UA-936138-3
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://feeneyforoffice.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://test.anomalyresponse.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:title:output_ext
 
-logo: /assets/img/solar.jpg
+logo: /assets/img/thumb_ep2.jpg
 
-twitter_username: SeanFromIT
-facebook_username: FeeneyForOffice
-linkedin_username: seanfromit
+twitter_username: anomalyresponse
+facebook_username: anomalyresponse
 github_username: SeanFromIT
-stack_overflow_username: 311393/seanfromit
-angellist_username: seanfromit
-slideshare_username: SeanFeeney3
 
 twitter:
-  username: SeanFromIT
+  username: anomalyresponse
   card: summary
 
 social:
-  name: Sean Feeney
+  name: Anomaly Response Network
   links:
-    - https://twitter.com/SeanFromIT
-    - https://www.facebook.com/seanfromit
-    - https://www.linkedin.com/in/seanfromit
+    - https://twitter.com/anomalyresponse
+    - https://www.facebook.com/anomalyresponse
     - https://github.com/SeanFromIT
-    - https://angel.co/seanfromit
-    - https://stackexchange.com/users/311393/seanfromit
-    - https://www.slideshare.net/SeanFeeney3
 
 # Build settings
 #incremental: true
