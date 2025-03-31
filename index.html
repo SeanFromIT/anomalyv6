@@ -3,7 +3,7 @@ layout: default
 ---
 
 	<section>
-    	{% for post in site.links limit:1 %}
+    	{% for link in site.links limit:1 %}
 			<a class="button" title="{{ link.title1 }}" href="{{ link.url1 }}">
 			{{ link.title1 }}</a>
 			{% if link.title2 %}

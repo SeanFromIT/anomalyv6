@@ -17,7 +17,7 @@ title: Tags
 		<h3 id="{{ strippedtag }}">{{ strippedtag }}</h3>
 		<a name="{{ strippedtag }}"></a>
 		<ul>
-		{% for post in site.categories[strippedtag] %}
+		{% for link in site.categories[strippedtag] %}
 			<li><a rel="nofollow" target="_blank" href="{{ link.url1 }}">{{ link.title1 }} ({{ link.date | date: "%-d %B %Y" }})</a></li>
 			{% if link.title2 %}
 				<li><a rel="nofollow" target="_blank" href="{{ link.url2 }}">{{ link.title2 }} ({{ link.date | date: "%-d %B %Y" }})</a></li>
