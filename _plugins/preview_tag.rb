@@ -32,7 +32,7 @@ module Jekyll
     def initialize(tag_name, tag_text, tokens)
       super
 
-      @link_url = tag_text.scan(/https?:\/\/[\S]+/).first
+      @link_url = tag_text.scan(/https?:\/\/[\S]+/).first.to_s
       @link_title = tag_text.scan(/\"(.*)\"/)[0].to_s.gsub(/\"|\[|\]/,'')
 
       build_preview_content
@@ -40,7 +40,7 @@ module Jekyll
 
     def build_preview_content
       if cache_exists?(@link_url)
-        @preview_content = read_cache(@link_url).to_s
+        @preview_content = read_cache(@link_url)
       else
         source = Nokogiri::HTML(open(@link_url))
 
@@ -100,7 +100,7 @@ module Jekyll
     end
 
     def cache_key(link_url)
-      Digest::MD5.hexdigest(link_url)
+      Digest::MD5.hexdigest(link_url.to_s)
     end
 
     def cache_exists?(link_url)

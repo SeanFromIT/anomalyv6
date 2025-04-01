@@ -3,15 +3,13 @@ layout: default
 ---
 
 	<section>
-    	{% for link in site.links limit:1 %}
-			<a class="button" title="{{ link.title1 }}" href="{{ link.url1 }}">
-			{{ link.title1 }}</a>
+    	{% for link in links limit:1 %}
+			{% preview "{{ link.title1 }}" {{ link.url1 }} %}
 			{% if link.title2 %}
-				<a class="button" title="{{ link.title2 }}" href="{{ link.url2 }}">
-				{{ link.title2 }}</a>
+				{% preview "{{ link.title2 }}" {{ link.url2 }} %}
 			{% endif %}
 		{% endfor %}
 		<div class="more">
-			<a class="button2" title="All Posts" href="/tags/">All Posts</a>
+			<a class="button" title="All Posts" href="/tags/">All Posts</a>
 		</div>
 	</section>
