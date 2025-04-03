@@ -45,12 +45,42 @@ module Jekyll
 
         #Refactor these to get specific og tags and failback if not found
 
-        @preview_text = get_content(source)
-        if @link_title == ''
-          @preview_title = get_content_title(source)
-        else
-          @preview_title = @link_title
+        #try getting title:
+        @title, @preview_text = nil
+        head_tag = source.css('head')
+        
+        if head_tag.css('meta[property="og:title"]').first
+          @title = cleanup(head_tag.css('meta[property="og:title"]').first["content"])
+        elsif head_tag.css('title').first
+          @title = cleanup(head_tag.css('title').first["content"])
+        elsif head_tag.css('meta[name="dcterms.title"]').first
+          @title = cleanup(head_tag.css('meta[name="dcterms.title"]').first["content"])
+        elsif source.css('.entry-title').first
+          @title = cleanup(source.css('.entry-title').first.content)
+        elsif source.css('.article_title').first
+          @title = cleanup(source.css('.article_title').first.content)
+        elsif source.css('h1').first
+          @title = cleanup(source.css('h1').first.content)
+        elsif source.css('h2').first
+          @title = cleanup(source.css('h2').first.content)
+        elsif source.css('h3').first
+          @title = cleanup(source.css('h3').first.content)
         end
+        p @title
+        @preview_title = @title
+
+        #try getting preview text:
+        if head_tag.css('meta[property="og:description"]').first
+          @preview_text = cleanup(head_tag.css('meta[property="og:description"]').first["content"])
+        elsif head_tag.css('meta[name="dcterms.description"]').first
+          @preview_text = cleanup(head_tag.css('meta[name="dcterms.description"]').first["content"])
+        else
+          @preview_text = get_content(source)
+#        if @link_title == ''
+#          @preview_title = get_content_title(source)
+#        else
+#          @preview_title = @link_title
+#        end
 
         @preview_img_url = get_og_image_url(source)
 
@@ -78,21 +108,21 @@ module Jekyll
       cleanup(Readability::Document.new(source, :tags => %w[]).content)
     end
 
-    def get_content_title(source)
-      if source.css('.entry-title').first
-        cleanup(source.css('.entry-title').first.content)
-      elsif source.css('.title').first
-        cleanup(source.css('.title').first.content)
-      elsif source.css('.article_title').first
-        cleanup(source.css('.article_title').first.content)
-      elsif source.css('h1').first
-        cleanup(source.css('h1').first.content)
-      elsif source.css('h2').first
-        cleanup(source.css('h2').first.content)
-      elsif source.css('h3').first
-        cleanup(source.css('h3').first.content)
-      end
-    end
+#    def get_content_title(source)
+#      if source.css('.entry-title').first
+#        cleanup(source.css('.entry-title').first.content)
+#      elsif source.css('.title').first
+#        cleanup(source.css('.title').first.content)
+#      elsif source.css('.article_title').first
+#        cleanup(source.css('.article_title').first.content)
+#      elsif source.css('h1').first
+#        cleanup(source.css('h1').first.content)
+#      elsif source.css('h2').first
+#        cleanup(source.css('h2').first.content)
+#      elsif source.css('h3').first
+#        cleanup(source.css('h3').first.content)
+#      end
+#    end
 
     def get_og_image_url(source)
       if source.css('meta[property="og:image"]').first
