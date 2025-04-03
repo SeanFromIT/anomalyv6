@@ -43,6 +43,10 @@ social:
     - https://www.facebook.com/anomalyresponse
     - https://github.com/SeanFromIT
 
+# Custom Data Types
+collections:
+  - links
+
 # Build settings
 #incremental: true
 markdown: kramdown

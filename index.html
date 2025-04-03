@@ -3,10 +3,10 @@ layout: default
 ---
 
 	<section>
-    	{% for link in links limit:1 %}
-			{% preview "{{ link.title1 }}" {{ link.url1 }} %}
+		{% for link in site.links %}
+			{% preview {{ link.title1 }} {{ link.url1 }} %}
 			{% if link.title2 %}
-				{% preview "{{ link.title2 }}" {{ link.url2 }} %}
+				{% preview {{ link.title2 }} {{ link.url2 }} %}
 			{% endif %}
 		{% endfor %}
 		<div class="more">

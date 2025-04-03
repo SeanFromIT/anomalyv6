@@ -29,20 +29,21 @@ require 'digest'
 
 module Jekyll
   class PreviewTag < Liquid::Tag
+
+    @tag_text, @link_url, @link_title = nil
+
     def initialize(tag_name, tag_text, tokens)
       super
-
-      @link_url = tag_text.scan(/https?:\/\/[\S]+/).first.to_s
-      @link_title = tag_text.scan(/\"(.*)\"/)[0].to_s.gsub(/\"|\[|\]/,'')
-
-      build_preview_content
+      @tag_text = tag_text
     end
 
     def build_preview_content
       if cache_exists?(@link_url)
         @preview_content = read_cache(@link_url)
       else
-        source = Nokogiri::HTML(open(@link_url))
+        source = Nokogiri::HTML(URI.open(@link_url))
+
+        #Refactor these to get specific og tags and failback if not found
 
         @preview_text = get_content(source)
         if @link_title == ''
@@ -60,6 +61,16 @@ module Jekyll
     end
 
     def render(context)
+      unless @tag_text.nil?
+        rendered_text = Liquid::Template.parse(@tag_text).render(context)
+        p "#{rendered_text}"
+        @link_url = rendered_text.scan(/https?:\/\/[\S]+/).first.to_s
+        p @link_url
+        @link_title = rendered_text.scan(/\"(.*)\"/)[0].to_s.gsub(/\"|\[|\]/,'')
+        p @link_title
+
+        build_preview_content
+      end
       %|#{@preview_content}|
     end
 
