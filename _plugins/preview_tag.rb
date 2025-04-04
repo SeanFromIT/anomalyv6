@@ -39,50 +39,57 @@ module Jekyll
 
     def build_preview_content
       if cache_exists?(@link_url)
-        @preview_content = read_cache(@link_url)
+        @preview_content = read_cache(@link_url).to_s
       else
-        source = Nokogiri::HTML(URI.open(@link_url))
+        #the .read fixes utf-8 encoding issues with nokogiri
+        source = Nokogiri::HTML(URI.open(@link_url).read)
 
-        #Refactor these to get specific og tags and failback if not found
-
-        #try getting title:
-        @title, @preview_text = nil
+        #if you set the title, you probably want to override it
+        @preview_title = @link_title
+        @preview_text, @preview_img_url = nil
         head_tag = source.css('head')
         
-        if head_tag.css('meta[property="og:title"]').first
-          @title = cleanup(head_tag.css('meta[property="og:title"]').first["content"])
-        elsif head_tag.css('title').first
-          @title = cleanup(head_tag.css('title').first["content"])
-        elsif head_tag.css('meta[name="dcterms.title"]').first
-          @title = cleanup(head_tag.css('meta[name="dcterms.title"]').first["content"])
-        elsif source.css('.entry-title').first
-          @title = cleanup(source.css('.entry-title').first.content)
-        elsif source.css('.article_title').first
-          @title = cleanup(source.css('.article_title').first.content)
-        elsif source.css('h1').first
-          @title = cleanup(source.css('h1').first.content)
-        elsif source.css('h2').first
-          @title = cleanup(source.css('h2').first.content)
-        elsif source.css('h3').first
-          @title = cleanup(source.css('h3').first.content)
+        unless @preview_title.nil?
+          #try getting title:
+          if head_tag.css('meta[property="og:title"]').first
+            @preview_title = cleanup(head_tag.css('meta[property="og:title"]').first["content"])
+          elsif head_tag.css('meta[name="twitter:title"]').first
+            @preview_title = cleanup(head_tag.css('meta[name="twitter:title"]').first["content"])
+          elsif head_tag.css('title').first
+            @preview_title = cleanup(head_tag.css('title').first["content"])
+          elsif head_tag.css('meta[name="dcterms.title"]').first
+            @preview_title = cleanup(head_tag.css('meta[name="dcterms.title"]').first["content"])
+          elsif source.css('.entry-title').first
+            @preview_title = cleanup(source.css('.entry-title').first.content)
+          elsif source.css('.article_title').first
+            @preview_title = cleanup(source.css('.article_title').first.content)
+          elsif source.css('h1').first
+            @preview_title = cleanup(source.css('h1').first.content)
+          elsif source.css('h2').first
+            @preview_title = cleanup(source.css('h2').first.content)
+          elsif source.css('h3').first
+            @preview_title = cleanup(source.css('h3').first.content)
+          end
         end
-        p @title
-        @preview_title = @title
 
         #try getting preview text:
         if head_tag.css('meta[property="og:description"]').first
           @preview_text = cleanup(head_tag.css('meta[property="og:description"]').first["content"])
+        elsif head_tag.css('meta[name="twitter:description"]').first
+          @preview_text = cleanup(head_tag.css('meta[name="twitter:description"]').first["content"])
         elsif head_tag.css('meta[name="dcterms.description"]').first
           @preview_text = cleanup(head_tag.css('meta[name="dcterms.description"]').first["content"])
         else
           @preview_text = get_content(source)
-#        if @link_title == ''
-#          @preview_title = get_content_title(source)
-#        else
-#          @preview_title = @link_title
-#        end
+        end
 
-        @preview_img_url = get_og_image_url(source)
+        if head_tag.css('meta[property="og:image"]').first
+          @preview_img_url = head_tag.css('meta[property="og:image"]').first["content"]
+        elsif head_tag.css('meta[name="twitter:image"]').first
+          @preview_img_url = head_tag.css('meta[name="twitter:image""]').first["content"]
+        elsif head_tag.css('link[rel="image_src"]').first
+          @preview_img_url = head_tag.css('link[rel="image_src"]').first["href"]
+        end
 
         @preview_content = "<h4><a href='#{@link_url}' target='_blank'>#{@preview_title.to_s}</a></h4><img width='64' src='#{@preview_img_url}' /><small>#{@preview_text.to_s}</small>"
 
@@ -93,11 +100,8 @@ module Jekyll
     def render(context)
       unless @tag_text.nil?
         rendered_text = Liquid::Template.parse(@tag_text).render(context)
-        p "#{rendered_text}"
         @link_url = rendered_text.scan(/https?:\/\/[\S]+/).first.to_s
-        p @link_url
         @link_title = rendered_text.scan(/\"(.*)\"/)[0].to_s.gsub(/\"|\[|\]/,'')
-        p @link_title
 
         build_preview_content
       end
@@ -105,34 +109,11 @@ module Jekyll
     end
 
     def get_content(source)
-      cleanup(Readability::Document.new(source, :tags => %w[]).content)
-    end
-
-#    def get_content_title(source)
-#      if source.css('.entry-title').first
-#        cleanup(source.css('.entry-title').first.content)
-#      elsif source.css('.title').first
-#        cleanup(source.css('.title').first.content)
-#      elsif source.css('.article_title').first
-#        cleanup(source.css('.article_title').first.content)
-#      elsif source.css('h1').first
-#        cleanup(source.css('h1').first.content)
-#      elsif source.css('h2').first
-#        cleanup(source.css('h2').first.content)
-#      elsif source.css('h3').first
-#        cleanup(source.css('h3').first.content)
-#      end
-#    end
-
-    def get_og_image_url(source)
-      if source.css('meta[property="og:image"]').first
-        return source.css('meta[property="og:image"]').first["content"]
-      end
-      return ""
+      cleanup(Readability::Document.new(source.to_s, :tags => %w[]).content)
     end
 
     def cleanup(content)
-      content = content.gsub(/\t/,'')
+      content = content.to_s.gsub(/\t/,'')
       if content.size < 200
         content
       else
