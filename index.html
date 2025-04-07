@@ -3,13 +3,161 @@ layout: default
 ---
 
 	<section>
-		{% for link in site.links %}
-			{% preview {{ link.title1 }} {{ link.url1 }} %}
+		{% for link in site.links limit:1 %}
+			<div id="leftLink">
+				{% preview {{ link.title1 }} {{ link.url1 }} %}
+			</div>
 			{% if link.title2 %}
-				{% preview {{ link.title2 }} {{ link.url2 }} %}
+				<div id="rightLink">
+					{% preview {{ link.title2 }} {{ link.url2 }} %}
+				</div>
 			{% endif %}
 		{% endfor %}
+	</section>
+		
+	<div class="stage">
+		<div class="campfire">
+		<div class="sparks">
+			<div class="spark"></div>
+			<div class="spark"></div>
+			<div class="spark"></div>
+			<div class="spark"></div>
+			<div class="spark"></div>
+			<div class="spark"></div>
+			<div class="spark"></div>
+			<div class="spark"></div>
+		</div>
+		<div class="logs">
+			<div class="log">
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			</div>
+			<div class="log">
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			</div>
+			<div class="log">
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			</div>
+			<div class="log">
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			</div>
+			<div class="log">
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			</div>
+			<div class="log">
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			</div>
+			<div class="log">
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			<div class="streak"></div>
+			</div>
+		</div>
+		<div class="sticks">
+			<div class="stick"></div>
+			<div class="stick"></div>
+			<div class="stick"></div>
+			<div class="stick"></div>
+		</div>
+		<div class="fire">
+			<div class="fire__red">
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			</div>
+			<div class="fire__orange">
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			</div>
+			<div class="fire__yellow">
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			</div>
+			<div class="fire__white">
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			<div class="flame"></div>
+			</div>
+		</div>
+		</div>
+	</div>
+
 		<div class="more">
 			<a class="button" title="All Posts" href="/tags/">All Posts</a>
 		</div>
-	</section>
