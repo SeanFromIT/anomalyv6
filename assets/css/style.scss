@@ -12,17 +12,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-section {
-	color: #fff;
-	width: 600px;
-	margin: 0 auto;
-	padding: 45px 25px;
-	display: grid;
-	grid-gap: 20px;
-	grid-auto-columns: 1fr;
-	grid-auto-flow: column;
-}
-
 h4 > a:link, h4 > a:visited, h4 > a:active {
 	color: #fde07f;
 }
@@ -51,16 +40,32 @@ h4 > a:hover {
 	color: #fff;
 }
 
-#leftLink .content {
-	
-}
-
-#rightLink .content {
-	
-}
-
 h4 {
 	font-size: 1.5em;
+}
+
+// mobile
+section {
+	color: #fff;
+	margin: 0 auto;
+	padding: 45px 25px;
+	display: grid;
+	grid-gap: 20px;
+	grid-auto-columns: 1fr;
+}
+
+// desktop
+@media (min-width: 768px) {
+	section {
+		color: #fff;
+		width: 600px;
+		margin: 0 auto;
+		padding: 45px 25px;
+		display: grid;
+		grid-gap: 20px;
+		grid-auto-columns: 1fr;
+		grid-auto-flow: column;
+	}
 }
 
 /* ######## */
