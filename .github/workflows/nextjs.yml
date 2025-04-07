@@ -29,7 +29,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      BUNDLE_DEPLOYMENT: false # Fix wdm error
+      BUNDLE_FROZEN: "false" # Fix wdm error
     steps:
       - name: Checkout
         uses: actions/checkout@v4
