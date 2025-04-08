@@ -4,12 +4,45 @@
 
 html,
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background: radial-gradient(#550d39, #270537);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: radial-gradient(#550d39, #270537);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+	font-family: "Frank Ruhl Libre", serif;
+	font-optical-sizing: auto;
+	color: #fff;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+header > i {
+	font-style: normal;
+	font-size: 1.2em;
+}
+
+header > b > a:link, header > b > a:visited, header > b > a:active {
+	color: #fff;
+}
+
+header > b > a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 900;
+	margin-bottom: 0;
+	font-variant: normal;
+}
+
+.red {
+	color: #e20f00;
 }
 
 h4 > a:link, h4 > a:visited, h4 > a:active {
@@ -40,11 +73,19 @@ h4 > a:hover {
 	color: #fff;
 }
 
+.content > a > center > img {
+	min-height: 187px;
+}
+
 h4 {
 	font-size: 1.5em;
 }
 
-// mobile
+.more {
+	text-align: center;
+	width: 100%;
+}
+
 section {
 	color: #fff;
 	margin: 0 auto;
@@ -54,21 +95,80 @@ section {
 	grid-auto-columns: 1fr;
 }
 
+#chair {
+    overflow: hidden
+}
+
+#chair img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	animation: flicker 7s infinite;
+}
+
+@keyframes flicker {
+	0%, 20%, 40%, 60%, 80%, 100% {
+		opacity: 1;
+	}
+	10% {
+		opacity: 0.9; /* Adjust for flicker intensity */
+	}
+	30% {
+		opacity: 0.6;
+	}
+	50% {
+		opacity: 0.7; 
+	}
+	70% {
+		opacity: 0.5;
+	}
+	90% {
+		opacity: 0.8;
+	}
+  }
+
+  @-webkit-keyframes flicker {
+	0%, 20%, 40%, 60%, 80%, 100% {
+		opacity: 1;
+	}
+	10% {
+		opacity: 0.9; /* Adjust for flicker intensity */
+	}
+	30% {
+		opacity: 0.6;
+	}
+	50% {
+		opacity: 0.7; 
+	}
+	70% {
+		opacity: 0.5;
+	}
+	90% {
+		opacity: 0.8;
+	}
+  }
+
 // desktop
 @media (min-width: 768px) {
 	section {
-		color: #fff;
 		width: 600px;
-		margin: 0 auto;
-		padding: 45px 25px;
-		display: grid;
-		grid-gap: 20px;
-		grid-auto-columns: 1fr;
 		grid-auto-flow: column;
 	}
 
 	.campfire {
-		transform: scale(1);
+		height: 440px !important;
+		transform: scale(1.0) !important;
+		left: 0px !important
+	}
+
+	.stage {
+		height: 100% !important;
+		width: 100% !important;
+		margin-left: 0px !important;
+	}
+
+	#chair {
+		overflow: visible !important;
 	}
 }
 
@@ -76,17 +176,20 @@ section {
 /* campfire */
 /* ######## */
 .stage {
-  height: 450px;
+  height: 200px;
+  width: 80%;
+  margin-left: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .campfire {
-  position: relative;
+  position: relative; // flows it after content
+  left: -70px;
   width: 600px;
   height: 600px;
   transform-origin: center center;
-  transform: scale(0.75);
+  transform: scale(0.5);
 }
 .log {
   position: absolute;

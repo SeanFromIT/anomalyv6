@@ -7,11 +7,13 @@
 
 # THANKS
 
-    Gary Webster, Kenny Young, 
-    Karen Bader, Sally Mills, 
-    Owen Huff, Tara Davidson
+    Gary Webster, Kenny Young, Karen Bader, Sally Mills, Owen Huff, Tara Davidson
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3, Jekyll,
-    GitHub, TinaCMS
+    HTML5, CSS3, Jekyll, GitHub, TinaCMS
+
+# ATTRIBUTIONS
+
+    Campfire: https://codepen.io/short/pen/gGWbQB
+    Chair: CC-Attribution Ipfeffer https://sketchfab.com/3d-models/camping-chair-46b592f41c1f441ca19faadd2b4bb90a
