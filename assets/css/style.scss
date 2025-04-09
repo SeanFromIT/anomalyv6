@@ -103,7 +103,6 @@ section {
 
 #nav > ul > li > a {
 	overflow: hidden;
-	white-space: nowrap;
 	text-overflow: ellipsis;
 	display: block;
 	color: #fde07f;
@@ -182,6 +181,10 @@ section {
 
 	#nav {
 		min-width: 200px;
+	}
+
+	#nav > ul > li > a {
+		white-space: nowrap;
 	}
 
 	.campfire {

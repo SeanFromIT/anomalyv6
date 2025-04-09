@@ -3,7 +3,7 @@ layout: default
 ---
 
 	<section>
-		{% for link in site.links offset:1 %}
+		{% for link in site.links limit:1 %}
 			<div id="leftLink">
 				{% preview {{ link.title1 }} {{ link.url1 }} %}
 			</div>
