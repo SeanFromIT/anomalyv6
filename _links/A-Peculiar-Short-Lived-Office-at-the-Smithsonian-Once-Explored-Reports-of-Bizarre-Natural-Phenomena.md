@@ -7,5 +7,6 @@ url1: >-
 date: 2025-04-04T01:34:07.557Z
 categories:
   - fortean
+layout: link
 ---
 

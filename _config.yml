@@ -45,7 +45,8 @@ social:
 
 # Custom Data Types
 collections:
-  - links
+  links:
+    output: true
 
 # Build settings
 #incremental: true

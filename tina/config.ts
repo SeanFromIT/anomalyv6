@@ -34,6 +34,7 @@ export default defineConfig({
         defaultItem: () => {
           return {
             date: new Date().toISOString(),
+            layout: "link",
           }
         },
         fields: [

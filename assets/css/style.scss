@@ -54,12 +54,7 @@ h4 > a:hover {
 	text-decoration: none;
 }
 
-#leftLink .title {
-	min-height: 8em;
-	text-align: center;
-}
-
-#rightLink .title {
+#leftLink > .title, #rightLink > .title {
 	min-height: 8em;
 	text-align: center;
 }
@@ -93,6 +88,36 @@ section {
 	display: grid;
 	grid-gap: 20px;
 	grid-auto-columns: 1fr;
+}
+
+#nav {
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	padding-right: 5px;
+}
+
+#nav > ul > li {
+	margin-bottom: 5px;
+	font-style: bold;
+}
+
+#nav > ul > li > a {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: block;
+	color: #fde07f;
+	text-decoration: none;
+}
+
+#nav > ul > li > a:link, #nav > ul > li > a:visited, #nav > ul > li > a:active {
+	color: #fde07f;
+	text-decoration: none;
+}
+
+#nav > ul > li > a:hover {
+	color: #fff;
+	text-decoration: none;
 }
 
 #chair {
@@ -151,8 +176,12 @@ section {
 // desktop
 @media (min-width: 768px) {
 	section {
-		width: 600px;
+		width: 768px;
 		grid-auto-flow: column;
+	}
+
+	#nav {
+		min-width: 200px;
 	}
 
 	.campfire {

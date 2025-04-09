@@ -7,5 +7,6 @@ categories:
   - egypt
 title2: Hall of Records
 url2: 'https://en.m.wikipedia.org/wiki/Hall_of_Records'
+layout: link
 ---
 
