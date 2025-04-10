@@ -3,6 +3,7 @@ layout: default
 ---
 
 <section>
+    
     <div id="leftLink">
         {% preview {{ page.title1 }} {{ page.url1 }} %}
     </div>
@@ -11,7 +12,7 @@ layout: default
             {% preview {{ page.title2 }} {{ page.url2 }} %}
         </div>
     {% endif %}
-    <div id="nav">
+    <div id="postNav">
         <ul class="fa-ul">
         {% for link in site.links limit:10 %}
             <li>
