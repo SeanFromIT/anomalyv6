@@ -45,6 +45,42 @@ h1 {
 	color: #e20f00;
 }
 
+#pageNav {
+  grid-row: 4;
+  border: 1px solid #fff;
+}
+
+#pageNav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#pageNav > ul > li {
+  padding: 5px;
+  background: #D8D5B8;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 0.4em;
+}
+
+#pageNav > ul > li > a {
+  display: block;
+  text-decoration: none;
+}
+
+#pageNav > ul > li > a:link, #pageNav > ul > li > a:visited {
+  color: #000;
+}
+
+#pageNav > ul > li > a:hover {
+  color: #666633;
+}
+
+#pageNav > ul > li > a:active {
+  color: #4c0d35;
+}
+
 h4 > a:link, h4 > a:visited, h4 > a:active {
 	color: #fde07f;
 }
@@ -88,6 +124,7 @@ section {
 	display: grid;
 	grid-gap: 20px;
 	grid-auto-columns: 1fr;
+  border: 1px solid red;
 }
 
 #postNav {
@@ -109,12 +146,13 @@ section {
 	text-decoration: none;
 }
 
-#postNav > ul > li > a:link, #postNav > ul > li > a:visited, #postNav > ul > li > a:active {
+#postNav > ul > li > a:link, #postNav > ul > li > a:visited, #postNav > ul > li > a:active,
+#support > ul > li > a:link, #support > ul > li > a:visited, #support > ul > li > a:active {
 	color: #fde07f;
 	text-decoration: none;
 }
 
-#postNav > ul > li > a:hover {
+#postNav > ul > li > a:hover, #support > ul > li > a:hover {
 	color: #fff;
 	text-decoration: none;
 }
@@ -172,12 +210,52 @@ section {
 	}
   }
 
+#support {
+	margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  max-width: 300px;
+  border: 1px solid #D8D5B8;
+}
+
+#support > strong {
+  background: #D8D5B8;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+
+#support > ul {
+  color: #fff;
+}
+
+footer {
+  margin: 10px auto 0 auto;
+  display: grid;
+  max-width: 300px;
+  text-align: center;
+}
+
+footer > a:link, footer > a:visited, footer > a:active, footer > a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
 // desktop
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
 	section {
-		width: 768px;
+		width: 1000px;
 		grid-auto-flow: column;
 	}
+
+  #pageNav {
+    grid-row: auto !important;
+    max-width: 160px;
+  }
+
+  #pageNav > ul > li {
+    width: 150px;
+  }
 
 	#postNav {
 		min-width: 200px;
@@ -202,6 +280,12 @@ section {
 	#chair {
 		overflow: visible !important;
 	}
+
+  // tags
+  #archives {
+    border: 1px solid #fff;
+    min-width: 620px;
+  }
 }
 
 /* ######## */

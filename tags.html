@@ -4,6 +4,7 @@ permalink: /tags/
 title: Tags
 ---
 <div id="archives">
+	Here are the archives:
 {% capture tags %}
 	{% for tag in site.categories %}
 		|{{ tag[0] }}
@@ -27,3 +28,5 @@ title: Tags
 	{% endunless %}
 {% endfor %}
 </div>
+{% include supported.html %}
+</section>

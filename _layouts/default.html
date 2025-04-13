@@ -1,39 +1,14 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang }}">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="theme-color" content="#550d39" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="abstract" content="{{ site.description }}" />
-		<meta name="copyright" content="{{ site.copyright }} {{ site.author }}" />
-		<meta name="keywords" content="{{ site.keywords }}" />
-		<meta name="robots" content="all" />
-		<meta name="security" content="public" />
-		<link rel="schema.dcterms" href="https://purl.org/dc/terms/" />
-		<meta name="dcterms.description" content="{{ site.description }}" />
-		<meta name="dcterms.language" content="{{ site.lang }}" />
-		<meta name="dcterms.rights" content="{{ site.copyright }} {{ site.author }}" />
-		<meta name="dcterms.subject" content="{{ site.keywords }}" />
-		<meta name="dcterms.title" content="{{ site.author }}" />
-		<!--{{ site.description }}-->
+{% include htmlhead.html %}
 			{% seo %}
-		<link rel="stylesheet" href="/assets/css/style.css" />
-		<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" /> -->
-		<link rel="stylesheet" href="/assets/css/solid.min.css" />
-		<link rel="stylesheet" href="/assets/css/brands.min.css" />
-		<link rel="stylesheet" href="/assets/css/fontawesome.min.css" />
-		<!--[if lt IE 9]>
-			<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-		<![endif]-->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap" rel="stylesheet" />
 	</head>
 	<body>
 {% include header.html %}
 
 {{ content }}
+
+{% include campfire.html %}
+
+{% include supported.html %}
 
 {% include footer.html %}
 
