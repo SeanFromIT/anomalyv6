@@ -4,29 +4,30 @@ permalink: /tags/
 title: Tags
 ---
 <div id="archives">
-	Here are the archives:
-{% capture tags %}
-	{% for tag in site.categories %}
-		|{{ tag[0] }}
-	{% endfor %}
-{% endcapture %}
-{% assign sortedtags = tags | strip_newlines | split: '|' | sort_natural %}
-
-{% for tag in sortedtags %}
-	{% unless forloop.first %}
-		{% assign strippedtag = tag | strip %}
-		<h3 id="{{ strippedtag }}">{{ strippedtag }}</h3>
-		<a name="{{ strippedtag }}"></a>
-		<ul>
-		{% for link in site.categories[strippedtag] %}
-			<li><a rel="nofollow" target="_blank" href="{{ link.url1 }}">{{ link.title1 }} ({{ link.date | date: "%-d %B %Y" }})</a></li>
-			{% if link.title2 %}
-				<li><a rel="nofollow" target="_blank" href="{{ link.url2 }}">{{ link.title2 }} ({{ link.date | date: "%-d %B %Y" }})</a></li>
-			{% endif %}
+	{% capture category %}
+		{% for link in site.links %}
+			{% for category in link.categories %}
+				|{{ category }}
+			{% endfor %}
 		{% endfor %}
-		</ul>
-	{% endunless %}
-{% endfor %}
+	{% endcapture %}
+	{% assign sortedtags = category | strip_newlines | split: '|' | sort_natural %}
+	{% for tag in sortedtags %}
+		{% unless forloop.first %}
+			{% assign strippedtag = tag | strip %}
+			<a name="{{ strippedtag }}" href="#{{ strippedtag }}"><h3 id="{{ strippedtag }}">{{ strippedtag }}</h3></a>
+			<ul>
+			{% assign theseTags = site.links | where: "categories", strippedtag %}
+			{% for link in theseTags %}
+				<li><a rel="nofollow" target="_blank" href="{{ link.url1 }}">{{ link.title1 }} ({{ link.date | date: "%-d %B %Y" }})</a></li>
+				{% if link.title2 %}
+					<li><a rel="nofollow" target="_blank" href="{{ link.url2 }}">{{ link.title2 }} ({{ link.date | date: "%-d %B %Y" }})</a></li>
+				{% endif %}
+			{% endfor %}
+			</ul>
+		{% endunless %}
+	{% endfor %}
+
 </div>
 {% include supported.html %}
 </section>

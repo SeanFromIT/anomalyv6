@@ -75,6 +75,54 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "page",
+        label: "Pages",
+        path: "_pages",
+        defaultItem: () => {
+          return {
+            date: new Date().toISOString(),
+            layout: "page",
+          }
+        },
+        fields: [
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+          },
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            // Short description for sharing/page previews
+            type: "string",
+            name: "description",
+            label: "description"
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+          {
+            type: "string",
+            name: "categories",
+            label: "categories",
+            list: true,
+          },
+          {
+            type: "string",
+            name: "layout",
+            label: "collection"
+          }
+        ],
+      }
     ],
   },
 });

@@ -47,6 +47,8 @@ social:
 collections:
   links:
     output: true
+  pages:
+    output: true
 
 # Build settings
 #incremental: true
