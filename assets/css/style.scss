@@ -47,7 +47,6 @@ h1 {
 
 #pageNav {
   grid-row: 4;
-  border: 1px solid #fff;
 }
 
 #pageNav > ul {
@@ -112,6 +111,11 @@ h4 {
 	font-size: 1.5em;
 }
 
+.centerpic {
+  display:block;
+  margin: 0 auto;
+}
+
 .more {
 	text-align: center;
 	width: 100%;
@@ -124,7 +128,6 @@ section {
 	display: grid;
 	grid-gap: 20px;
 	grid-auto-columns: 1fr;
-  border: 1px solid red;
 }
 
 #postNav {
@@ -147,14 +150,14 @@ section {
 }
 
 #postNav > ul > li > a:link, #postNav > ul > li > a:visited, #postNav > ul > li > a:active,
-#support > ul > li > a:link, #support > ul > li > a:visited, #support > ul > li > a:active,
+#support > div > ul > li > a:link, #support > div > ul > li > a:visited, #support > div > ul > li > a:active,
 #archives > a:link, #archives > a:visited, #archives > a:active,
 #archives > ul > li > a:link, #archives > ul > li > a:visited, #archives > ul > li > a:active {
 	color: #fde07f;
 	text-decoration: none;
 }
 
-#postNav > ul > li > a:hover, #support > ul > li > a:hover,
+#postNav > ul > li > a:hover, #support > div > ul > li > a:hover,
 #archives > a:hover,
 #archives > ul > li > a:hover {
 	color: #fff;
@@ -217,19 +220,22 @@ section {
 #support {
 	margin-left: auto;
   margin-right: auto;
-  display: grid;
   max-width: 300px;
+}
+
+#support > div {
   border: 1px solid #D8D5B8;
 }
 
-#support > strong {
+#support > div > strong {
   background: #D8D5B8;
   font-weight: bold;
   text-align: center;
   color: #000;
+  display: block;
 }
 
-#support > ul {
+#support > div > ul {
   color: #fff;
 }
 
@@ -285,9 +291,8 @@ footer > a:link, footer > a:visited, footer > a:active, footer > a:hover {
 		overflow: visible !important;
 	}
 
-  // tags
-  #archives {
-    border: 1px solid #fff;
+  // keep other pages in single column
+  #archives, #page {
     min-width: 620px;
   }
 }
