@@ -78,7 +78,7 @@ export default defineConfig({
       {
         name: "page",
         label: "Pages",
-        path: "_pages",
+        path: "/",
         defaultItem: () => {
           return {
             date: new Date().toISOString(),
