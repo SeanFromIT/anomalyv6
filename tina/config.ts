@@ -79,6 +79,9 @@ export default defineConfig({
         name: "page",
         label: "Pages",
         path: "/",
+        match: {
+          exclude: '_*/**',
+        },
         defaultItem: () => {
           return {
             date: new Date().toISOString(),

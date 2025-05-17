@@ -41,7 +41,11 @@ h1 {
 	font-variant: normal;
 }
 
-.red {
+h2 {
+  margin-top: 0;
+}
+
+.red, h2 {
 	color: #e20f00;
 }
 
@@ -80,11 +84,17 @@ h1 {
   color: #4c0d35;
 }
 
-h4 > a:link, h4 > a:visited, h4 > a:active {
+h4 > a:link, h4 > a:visited, h4 > a:active, 
+h5 > a:link, h5 > a:visited, h5 > a:active,
+#page > p > a:link, #page > p > a:visited, #page > p > a:active,
+#page > ul > li > a:link, #page > ul > li > a:visited, #page > ul > li > a:active {
 	color: #fde07f;
 }
 
-h4 > a:hover {
+h4 > a:hover, 
+h5 > a:hover, 
+#page > p > a:hover,
+#page > ul > li > a:hover {
 	color: #fde07f;
 	text-decoration: none;
 }
