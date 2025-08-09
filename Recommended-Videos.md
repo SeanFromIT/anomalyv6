@@ -491,3 +491,17 @@ layout: page
 ##### The Klinge Brothers bring an experimental approach and high ethical standards to ghost hunting, resulting in some of the best documented evidence of the paranormal to date.
 * <a title="Ghost Lab" target="_blank" href="https://amzn.to/4mlzhMK">Ghost Lab (2009-2010)</a>
 * <a title="Strange Curiosity" target="_blank" href="https://amzn.to/3EYToQ9">Strange Curiosity (2016)</a>
+
+<br />
+
+## Josh Gates & Crew
+##### While his degree may be in archeology, Josh has investigated alongside enough serious investigators - and with seemingly unlimited television money, investigated so many paranormal claims across the world - that over the years that he's picked up a healthy skepticism and approach.
+* [Expedition X](https://amzn.to/4oFIctN){:target="_blank"}
+* [Destination Truth](https://amzn.to/3J0WyV6){:target="_blank"}
+* [Expedition Unknown](https://amzn.to/4mPjSUz){:target="_blank"}
+* [Expedition Unknown: Hunt for Extraterrestrials](https://amzn.to/41u92L4){:target="_blank"}
+* [Expedition Unknown: Hunt for the Yeti](https://amzn.to/4lfAKTa){:target="_blank"}
+* [Expedition Unknown: Search for the Afterlife](https://amzn.to/4lpyngI){:target="_blank"}
+* [Expedition Files](https://amzn.to/4lgDlMz){:target="_blank"}
+* [Legendary Locations](https://amzn.to/4fo7rwh){:target="_blank"}
+* [Ghost Nation](https://amzn.to/458o8bK){:target="_blank"}

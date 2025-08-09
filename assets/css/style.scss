@@ -25,13 +25,18 @@ header > i {
 	font-size: 1.2em;
 }
 
-header > b > a:link, header > b > a:visited, header > b > a:active {
-	color: #fff;
+:is(header > b, footer, .content) > a:is(:link, :visited, :active),
+.content > a:hover,
+footer,
+#support > div > ul > li > span {
+  color: #fff;
 }
 
-header > b > a:hover {
-	color: #fff;
-	text-decoration: none;
+:is(header > b, #archives, #page) > a:hover,
+footer > a:link > .fa-brands, footer > a:visited > .fa-brands, footer > a:active > .fa-brands, footer > a:hover > .fa-brands,
+h3 > a:is(:link, :visited, :active) {
+  color: #fff;
+  text-decoration: none;
 }
 
 h1 {
@@ -84,20 +89,30 @@ h2 {
   color: #4c0d35;
 }
 
-h4 > a:link, h4 > a:visited, h4 > a:active, 
-h5 > a:link, h5 > a:visited, h5 > a:active,
-#page > p > a:link, #page > p > a:visited, #page > p > a:active,
-#page > ul > li > a:link, #page > ul > li > a:visited, #page > ul > li > a:active {
-	color: #fde07f;
+:is(h4, h5, footer, td, sup, em, p, #archives, #archives > ul > li,
+  #page > p, #page > ul > li, #page > ol > li)
+  > a:is(:link, :visited, :active) {
+    color: #fde07f;
 }
 
-h4 > a:hover, 
-h5 > a:hover, 
-#page > p > a:hover,
-#page > ul > li > a:hover {
-	color: #fde07f;
-	text-decoration: none;
+:is(h4, h5, footer, td, sup, em, p, #archives, #archives > ul > li,
+  #page > p, #page > ul > li, #page > ol > li)
+  > a:hover {
+    color: #fde07f;
+    text-decoration: none;
 }
+
+/*----breaks if not broken out----*/
+#support > div > ul > li > a:link, 
+#support > div > ul > li > a:visited, 
+#support > div > ul > li > a:active {
+  color: #fde07f;
+  text-decoration: none;
+}
+#support > div > ul > li > a:hover {
+  color: #fff;
+}
+/*--------------------------------*/
 
 #leftLink > .title, #rightLink > .title {
 	min-height: 8em;
@@ -107,10 +122,6 @@ h5 > a:hover,
 .content > a {
 	display: block;
 	text-decoration: none;
-}
-
-.content > a:link, .content > a:visited, .content > a:active, .content > a:hover {
-	color: #fff;
 }
 
 .content > a > center > img {
@@ -148,10 +159,9 @@ section {
 
 #postNav > ul > li {
 	margin-bottom: 5px;
-	font-style: bold;
 }
 
-#postNav > ul > li > a {
+#postNav > ul > li > a:is(:link, :visited, :active) {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: block;
@@ -159,19 +169,21 @@ section {
 	text-decoration: none;
 }
 
-#postNav > ul > li > a:link, #postNav > ul > li > a:visited, #postNav > ul > li > a:active,
-#support > div > ul > li > a:link, #support > div > ul > li > a:visited, #support > div > ul > li > a:active,
-#archives > a:link, #archives > a:visited, #archives > a:active,
-#archives > ul > li > a:link, #archives > ul > li > a:visited, #archives > ul > li > a:active {
-	color: #fde07f;
+#postNav > ul > li > a:hover {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	color: #fff;
 	text-decoration: none;
 }
 
-#postNav > ul > li > a:hover, #support > div > ul > li > a:hover,
-#archives > a:hover,
-#archives > ul > li > a:hover {
-	color: #fff;
-	text-decoration: none;
+#page > table, 
+#page > table > tbody > tr, 
+#page > table > tbody > tr > td,
+#page > table > thead > tr > th {
+  border: 1px solid #D8D5B8;
+  border-collapse: collapse;
+  padding: 5px;
 }
 
 #chair {
@@ -245,10 +257,6 @@ section {
   display: block;
 }
 
-#support > div > ul {
-  color: #fff;
-}
-
 footer {
   margin: 10px auto 0 auto;
   display: grid;
@@ -256,12 +264,8 @@ footer {
   text-align: center;
 }
 
-footer > a:link, footer > a:visited, footer > a:active, footer > a:hover {
-	color: #fff;
-	text-decoration: none;
-}
+/*---------DESKTOP---------*/
 
-// desktop
 @media (min-width: 1000px) {
 	section {
 		width: 1000px;

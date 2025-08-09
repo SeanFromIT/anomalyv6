@@ -15,11 +15,11 @@ layout: default
         <ul class="fa-ul">
         {% for link in site.links limit:10 %}
             <li>
-                <span class="fa-li"><i class="fa-solid fa-link"></i></span><a href="{{ link.url }}" title="{{ link.title1 }}">{{ link.title1 }}</a>
+                <span class="fa-li"><i class="fa-solid fa-link"></i></span><a href="{{ link.url }}">{{ link.title1 }}</a>
             </li>
             {% if link.title2 %}
                 <li>
-                    <span class="fa-li"><i class="fa-solid fa-link"></i></span><a href="{{ link.url }}" title="{{ link.title2 }}">{{ link.title2 }}</a>
+                    <span class="fa-li"><i class="fa-solid fa-link"></i></span><a href="{{ link.url }}">{{ link.title2 }}</a>
                 </li>
             {% endif %}
         {% endfor %}

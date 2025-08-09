@@ -15,7 +15,7 @@ title: Tags
 	{% for tag in sortedtags %}
 		{% unless forloop.first %}
 			{% assign strippedtag = tag | strip %}
-			<a name="{{ strippedtag }}" href="#{{ strippedtag }}"><h3 id="{{ strippedtag }}">{{ strippedtag }}</h3></a>
+			<h3 id="{{ strippedtag }}"><a name="{{ strippedtag }}" href="#{{ strippedtag }}">{{ strippedtag }}</a></h3>
 			<ul>
 			{% assign theseTags = site.links | where: "categories", strippedtag %}
 			{% for link in theseTags %}

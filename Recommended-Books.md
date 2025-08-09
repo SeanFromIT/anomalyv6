@@ -6,9 +6,25 @@ description: >-
 layout: page
 ---
 ## Kenny Young
-##### Kenny was a legendary Cincinnati-area UFO and cryptid investigator active from about 1993-2005.
+##### Kenny was a legendary Cincinnati-area UFO and cryptid investigator active from about 1993-2005, appearing on ["UFOs: The Field Guide" (Sci-Fi 2003)](https://archive.org/details/sci-fi-ufo-field-guide-do-not-trust-aliens/UFO+FIELD+GUIDE+Part+2+(Do+not+trust+Aliens).mp4){:target="_blank"}, ["Confirmation: The Hard Evidence of Aliens Among Us?" (NBC 1999)](https://youtu.be/85P0prRXSkw?si=hSKcsnqWmbIELSgX&t=4468){:target="_blank"}, and [Sightings (Sci-Fi 1997)](https://www.imdb.com/title/tt0967842/){:target="_blank"}.
 * <a title="UFO Dispute" target="_blank" href="https://amzn.to/4klP9fV">UFO Dispute</a>
 * <a title="UFO Frontier" target="_blank" href="https://amzn.to/46tXw5P">UFO Frontier</a>
+
+## Joedy Cook
+##### Joedy has a long history of investigating cryptids around the Cincinnati-area, appearing on [MonsterQuest (History 2008)](https://amzn.to/3IvwQIa){:target="_blank"} and [Sightings (Fox 1995)](https://www.imdb.com/title/tt1632196/){:target="_blank"}. He has called his work the Ohio Center for Bigfoot Studies since 1991.
+* <a title="Bigfoot Encounters in Ohio: Quest for the Grassman" target="_blank" href="https://amzn.to/4nTHx7B">Bigfoot Encounters in Ohio: Quest for the Grassman (Rev. Ed., 2006, Clappison & Murphy)</a>
+* <a title="Traces of the Grassman: The Search for the Ohio Bigfoot" target="_blank" href="https://amzn.to/44R0P4L">Traces of the Grassman: The Search for the Ohio Bigfoot (2010)</a>
+* <a title="Legend of the Grassman" target="_blank" href="https://amzn.to/44rpzBA">Legend of the Grassman (2011)</a>
+* <a title="Beginner's Guide To Bigfoot Research" target="_blank" href="https://amzn.to/4kF5rRn">Beginner's Guide To Bigfoot Research (2011)</a>
+* <a title="Humanoid Encounters Casebook Series 1 (OH & WV)" target="_blank" href="https://amzn.to/3GzZG9C">Humanoid Encounters Casebook Series 1 (OH & WV) (2011)</a>
+* <a title="Werewolves: Myths and Legends" target="_blank" href="https://amzn.to/4eTk6as">Werewolves: Myths and Legends (2011)</a>
+* <a title="Zombies: What You Need To Know Or You'll Die" target="_blank" href="https://amzn.to/4lKALz4">Zombies: What You Need To Know Or You'll Die (2011)</a>
+* <a title="Zombies: The Survival Guide" target="_blank" href="https://amzn.to/44MtKXK">Zombies: The Survival Guide (2011)</a>
+* <a title="History of the Dogman" target="_blank" href="https://amzn.to/44YrpKm">History of the Dogman (2015)</a>
+* <a title="Dogman: Werewolf Encounters in Northeastern America" target="_blank" href="https://amzn.to/44uymmq">Dogman: Werewolf Encounters in Northeastern America (2015)</a>
+* <a title="Werewolves: Encounters with the Black Dog" target="_blank" href="https://amzn.to/3IszIp2">Werewolves: Encounters with the Black Dog (2016)</a>
+* <a title="Grassman: Ohio's North American Ape" target="_blank" href="https://amzn.to/3U8ndBt">Grassman: Ohio's North American Ape (2016)</a>
+* <a title="Mothman Casebook" target="_blank" href="https://amzn.to/4ljHobI">Mothman Casebook (Rev. Ed., 2017)</a>
 
 ## William Montell, Ph.D.
 ##### Dr. Montell, a WKU professor, published many Kentucky folklore books from 1975-2010.

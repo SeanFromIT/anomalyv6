@@ -91,7 +91,7 @@ module Jekyll
           @preview_img_url = head_tag.css('link[rel="image_src"]').first["href"]
         end
 
-        @preview_content = "<div class='title'><h4><a href='#{@link_url}' rel='nofollow' target='_blank'>#{@preview_title.to_s}</a></h4></div><div class='content'><a href='#{@link_url}' rel='nofollow' target='_blank'><center><img width='290' src='#{@preview_img_url}' /></center><br />#{@preview_text.to_s}</a></div>"
+        @preview_content = "<div class='title'><h4><a href='#{@link_url}' rel='nofollow' target='_blank'>#{@preview_title.to_s}</a></h4></div><div class='content'><a href='#{@link_url}' rel='nofollow' target='_blank'><center><img alt='#{@preview_title.to_s}' width='290' src='#{@preview_img_url}' /></center><br />#{@preview_text.to_s}</a></div>"
 
         write_cache(@link_url, @preview_content)
       end

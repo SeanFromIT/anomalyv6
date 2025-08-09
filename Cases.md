@@ -1,0 +1,55 @@
+---
+date: 2025-07-20T04:37:56.303Z
+title: Cases
+description: >-
+  Case history of the Anomaly Response Network and associated organizations and/or individuals.
+layout: page
+---
+{% comment %}
+## Anomaly Response Network Cases
+
+| ID | Incident Date/Era | Classification | Principal Investigator | Case File Name |
+| --- | --- | --- | --- | --- |
+| X | x/x/xxxx | xxx | xxx | xxx |
+
+<br />
+{% endcomment %}
+## Classification Codes
+
+These classifications were initially proposed by [J. Allen Hynek](/history/JAllenHynek) of [CUFOS](/history/CUFOS) and expanded upon by Jacques Vallée and others. No judgement is offered on the veracity of exemplary cases, they are linked for illustrative purposes.
+
+| Code | Description | Exemplary Case |
+| --- | --- | --- |
+| FLAP | <strong>UFO Flap</strong><br/>Report grouping together multiple UFO sightings that may indicate a sightings wave or flap. A wave or flap is a short period of time (a month to a few years) during which a relatively high number of sightings reports are filed as compared to non-flap time periods. | [The Gulf Breeze UFO Incident](case/GulfBreeze1987) |
+| RADC | <strong>Radar Case</strong><br/>A UFO sighting supported by radar evidence. |  |
+| AP | <strong>Airplane Pilot or Passenger Report</strong><br/>Pilots have historically reported these to [NARCAP](https://www.narcap.org "National Aviation Reporting Center on Anomalous Phenomena"){:target="_blank"}, and more recently [Americans for Safe Aerospace](https://www.safeaerospace.org). When the US Government got back into UFO debunking after the [Nimitz, Gimbal](https://www.nytimes.com/video/us/100000007110056/ufo-video-navy.html){:target="_blank"}, and [GOFAST](https://www.washingtonpost.com/news/checkpoint/wp/2018/03/12/oh-my-gosh-dude-video-shows-navy-pilots-close-encounter-with-an-unidentified-fast-flying-object/){:target="_blank"} videos surfaced, the [AARO](https://www.aaro.mil "All-domain Anomaly Resolution Office") also became a possibility. In 2010, the FAA literally [suggested](https://web.archive.org/web/20100412064244/http://www.faa.gov:80/air_traffic/publications/atpubs/ATC/atc0908.html){:target="_blank"} BAASS or [NUFORC](https://nuforc.org){:target="_blank"}.  | [America West Flight 564 (1995)](https://odysee.com/@UFOB:2/1995-case-sightings-america-west-flight:b){:target="_blank"} |
+| DE-1 | <strong>Distant Encounters of the First Kind</strong><br/>Formerly “NL” – Nocturnal Lights, Cemetery Lights, Spook Lights, etc. A UFO has been observed which travels in a discontinuous trajectory (i.e. vertical drops, maneuvers or loops) that could indicate purposeful maneuvering. |  |
+| DE-2 | <strong>Distant Encounters of the Second Kind</strong><br/>Distant nocturnal lights that take formations or otherwise arrange into recognizable shapes. |  |
+| DE-3 | <strong>Distant Encounters of the Third Kind</strong><br/>Formerly “DD” – Daytime Disc sightings. Any sighting of a structured craft seen from a distance of 500 feet or more. | [Mantell UFO Incident (KY)](case/Mantell1948) |
+| DE-4 | <strong>Distant Encounters of the Fourth Kind</strong><br/>A distant light or craft that leaves some measurable evidence in the environment of the site after it departs. | [The Kecksburg Incident](https://pabook.libraries.psu.edu/literary-cultural-heritage-map-pa/feature-articles/acorn-space-kecksburg-incident){:target="_blank"} |
+| CE-1 | <strong>Close Encounters of the First Kind</strong><br/>Any report of a large structure or craft seen at a close distance, approximately 500 feet or less. A visual sighting. | [Portage County, OH UFO Chase](https://web.archive.org/web/20240503075022/https://www.timesonline.com/story/news/local/2018/10/18/famous-86-mile-ufo-chase/9513751007/){:target="_blank"} |
+| CE-2 | <strong>Close Encounters of the Second Kind</strong><br/>A large structure or craft seen at a close distance that leaves some measurable evidence in the environment of the site after it departs. |  |
+| CE-3 | <strong>Close Encounters of the Third Kind</strong><br/>Reports which include both a structured craft seen at a near distance and creatures of some kind associated with the craft. | [The Lonnie Zamora Incident](https://socorronm.org/location-activity/socorro-landing-a-ufo-story/){:target="_blank"} |
+| CE-4 | <strong>Close Encounters of the Fourth Kind</strong><br/>Being-initiated contact. Reports in which there is evidence of some form of mental and/or physical transport of a human being from one location to another. There is seldom any recollection of the travel or surrounding details. This category includes abduction and sexual contact cases. | [The Liberty, KY Alien Abduction](http://kenny.anomalyresponse.com/KENTUCKY.htm){:target="_blank"} |
+| CE-5 | <strong>Close Encounters of the Fifth Kind</strong><br/>Human-initiated contact. A report of deliberate human behavior that was followed by an obvious response from an unidentified object and/or associated creature. The response of the craft or being included effects suggesting its response was not merely coincidental. This category includes telepathic communication between humans and occupants. | [Kelly, KY Green Men](case/KellyGreenMen1955) |
+| CE-6 | <strong>Close Encounters of the Sixth Kind</strong><br/>Report in which there is evidence of bodily harm or death as a result of witnessing or interacting with a UFO or its occupants. | [Delphos, KS 1971](https://www.usufocenter.com/ufologist/booth/delphos-kansas-UFO.html){:target="_blank"} |
+| GE-1 | <strong>Ghost Encounters of the First Kind</strong><br/>A ghost or spirit is sighted or heard. |  |
+| GE-2 | <strong>Ghost Encounters of the Second Kind</strong><br/>Some type of evidence of the ghost is found (e.g. ectoplasm), objects are materialized, or the ghost otherwise interacts with the environment (e.g. poltergeist activity). |  |
+| GE-3 | <strong>Ghost Encounters of the Third Kind</strong><br/>Multiple ghosts are encountered. |  |
+| GE-4 | <strong>Ghost Encounters of the Fourth Kind</strong><br/>Physical or sexual contact with a ghost (e.g. incubus/succubus). |  |
+| GE-5 | <strong>Ghost Encounters of the Fifth Kind</strong><br/>Deliberate human behavior followed by an obvious response by the ghost(s). |  |
+| GE-6 | <strong>Ghost Encounters of the Sixth Kind</strong><br/>Bodily harm or death as a result of interaction with a ghost. | [The Bell Witch](https://customshousemuseum.org/news/the-bell-witch-the-scariest-ghost-story-in-tennessee/){:target="_blank"} |
+| CRE-1 | <strong>Creature Encounters of the First Kind</strong><br/>A cryptid (bigfoot, nessie, chupacabra, mothman, nightcrawler, skinwalker, lizard people, or any other "living" monster) or mythical/legendary entity (e.g. elves, fairies, leprechauns) heard or sighted. | [The Fouke Monster](http://www.foukemonster.net/sightings.htm){:target="_blank"} |
+| CRE-2 | <strong>Creature Encounters of the Second Kind</strong><br/>Evidence of the creature is found. |  |
+| CRE-3 | <strong>Creature Encounters of the Third Kind</strong><br/>The creature(s) return to a certain area, or are spotted in a group or lair. | [Mothman's TNT Area](https://wvexplorer.com/2019/09/06/mothman-tnt-area-point-pleasant-wv-west-virginia/){:target="_blank"} |
+| CRE-4 | <strong>Creature Encounters of the Fourth Kind</strong><br/>Physical or sexual contact with or an abduction by the creature(s). |  |
+| CRE-5 | <strong>Creature Encounters of the Fifth Kind</strong><br/>Deliberate human behavior followed by an obvious response by the creature(s). |  |
+| CRE-6 | <strong>Creature Encounters of the Sixth Kind</strong><br/>Bodily harm or death as a result of interaction with a creature. |  |
+| AB-1 | <strong>Anomalous Behavior of the First Kind</strong><br/>Anomalies that have no lasting physical effects. i.e. amorphous lights, unexplained explosions. |  |
+| AB-2 | <strong>Anomalous Behavior of the Second Kind</strong><br/>Anomalies that have lasting physical effects. i.e. crop circles (areas of flattened grass, corn, soy, etc.). |  |
+| AB-3 | <strong>Anomalous Behavior of the Third Kind</strong><br/>Near-death experiences (NDEs), out-of-body experiences (OBEs), religious miracles, and similar visions. |  |
+| AB-4 | <strong>Anomalous Behavior of the Fourth Kind</strong><br/>Anomalous reports of injuries and deaths. i.e. SHC (spontaneous human combustion), unexplained wounds, as well as permanent healing that results from a paranormal experience. |  |
+| AM-1 | <strong>Animal Mutilations of the First Kind</strong><br/>An animal was found dead under unusual circumstances but wasn’t mutilated. |  |
+| AM-2 | <strong>Animal Mutilations of the Second Kind</strong><br/>An animal was killed, mutilated and left in the location where it normally lived. |  |
+| AM-3 | <strong>Animal Mutilations of the Third Kind</strong><br/>An animal was killed, mutilated and found in an unusual location. |  |
+| AM-4 | <strong>Animal Mutilations of the Fourth Kind</strong><br/>Evidence that an animal was killed and/or mutilated but few or no remains found. |  |

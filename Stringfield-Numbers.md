@@ -7,7 +7,7 @@ description: >-
   mathematics.
 layout: page
 ---
-<img alt="Stringfield Number Project" class="centerpic" src="/assets/img/stringfieldnumber.gif" width="500px" height="282px" />
+<img alt="Stringfield Number Project" class="centerpic" src="/assets/img/stringfieldnumber.gif" width="500" height="282" />
 
 **The Stringfield Number Project studies research collaboration among ufologists.** It is based on the [Erdos Number Project](http://www.oakland.edu/enp/) from the field of mathematics.
 
@@ -38,15 +38,15 @@ List of Known Stringfield Numbers
 
 Authors with Stringfield Number 1
 
-*   J. Allen Hynek
+*   [J. Allen Hynek](/history/JAllenHynek)
 *   Donald E. Keyhoe
 *   Mark Rodeghier
 *   Joseph Stefula
 *   Chris Coffey
-*   Kenny Young
+*   [Kenny Young](/history/KennyYoung)
 
 Authors with Stringfield Number 2
 
-*   Donnie Blessing
+*   [Donnie Blessing](/history/DonnieBlessing)
 *   Sean Feeney
 *   Donald Johnson

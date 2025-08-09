@@ -1,0 +1,56 @@
+---
+date: 2025-07-12T04:37:56.303Z
+title: Tri-State Paranormal Organization History
+description: >-
+  A history of paranormal organizations in or linked to the Tri-State area (OH, KY, IN).
+layout: page
+---
+## Tri-State Paranormal Organization History
+- [Aerial Phenomena Research Organization (APRO)](history/APRO)
+- [Archives for UFO Research (AFU)](history/AFU)
+- [Archives For the Unexplained (AFU)](history/AFU)
+- [Amateur Radio UFO Network (ARUFON)](history/ARUFON)
+- [Associates for Scientific Knowledge (ASK)](history/TASK)
+- [Center for UFO Studies (CUFOS)](history/CUFOS)
+- [Citizens Against UFO Secrecy (CAUS)](history/CAUS)
+- [Civilian Research, Interplanetary Flying Objects (CRIFO)](history/CRIFO)
+- [Civilian Saucer Investigation (CSI)](history/CSI)
+- [Cleveland Ufology Project](history/CUP)
+- [Coalition Of Concerned Ufologists (CCU)](history/CCU)
+- [Fund for UFO Research (FUFOR)](history/FUFOR)
+- [Ground Observer Corps (GOC)](history/GOC)
+- [Ground Saucer Watch (GSW)](history/GSW)
+- [International UFO Congress (IUFOC)](history/IUFOC)
+- [Local Area UFO Research Association (LAURA)](history/LAURA)
+- [Mid-Ohio Research Associates (MORA)](history/MORA)
+- [Mutual Anomaly Research Center and Evaluation Network (MARCEN)](history/MARCEN)
+- [Mutual UFO Network (MUFON) of Ohio](history/OHMUFON)
+- [National Investigations Committee On Aerial Phenomena (NICAP)](history/NICAP)
+- [National UFO Conference (NUFOC)](history/NUFOC)
+- [Roundtown UFO Society](history/RUFOS)
+- [Sign Historical Group (SHG)](history/SHG)
+- [SKYNET](history/SKYNET)
+- [Southern Ohio/Alabama Alien Abduction Research (SOAAR/SAAAR)](history/SOAAR)
+- [Tri-State Advocates for Scientific Knowledge (TASK)](history/TASK)
+- [Tri-State Bigfoot Study Group (TSBSG)](history/TSBSG)
+- [UFO Filter Center](history/UFOFC)
+- [UFO Information Network (UFOIN)](history/UFOIN)
+- [UFO Investigator's League (UFOIL)](history/UFOIL)
+- [UFO Research Coalition (UFORC)](history/UFORC)
+- [United Aerial Phenomena Agency (UAPA)](history/UAPA)
+
+## Tri-State Paranormal Investigator Hall of Fame
+- [Earle Benezet](history/EarleBenezet)
+- [Jerry Black](history/JerryBlack)
+- [Donnie Blessing](history/DonnieBlessing) (Started in Ohio before retiring to Alabama)
+- [Joedy Cook](history/JoedyCook)
+- [Rick Hilberg](history/RickHilberg)
+- [J. Allen Hynek](history/JAllenHynek) (Ohio State University Astronomy Professor 1936-1956)
+- [Don Keating](history/DonKeating)
+- [Earl Neff](history/EarlNeff)
+- [Pat Packard](history/PatPackard)
+- [Francis Ridge](history/FrancisRidge)
+- [Ron Schaffner](history/RonSchaffner)
+- [Leonard Stringfield](history/LeonardStringfield)
+- [John Timmerman](history/JohnTimmerman)
+- [Kenny Young](history/KennyYoung)
