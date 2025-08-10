@@ -309,6 +309,7 @@ footer {
   // keep other pages in single column
   #archives, #page {
     min-width: 620px;
+    max-width: 80vw;
   }
 }
 
