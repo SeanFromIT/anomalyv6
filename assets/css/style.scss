@@ -91,13 +91,13 @@ h2 {
 }
 
 :is(h4, h5, footer, td, sup, em, p, #archives, #archives > ul > li,
-  #page > p, #page > ul > li, #page > ol > li)
+  #page > p, #page > ul > li, #page > ol > li, #page > ul > li > ul > li)
   > a:is(:link, :visited, :active) {
     color: #fde07f;
 }
 
 :is(h4, h5, footer, td, sup, em, p, #archives, #archives > ul > li,
-  #page > p, #page > ul > li, #page > ol > li)
+  #page > p, #page > ul > li, #page > ol > li, #page > ul > li > ul > li)
   > a:hover {
     color: #fde07f;
     text-decoration: none;

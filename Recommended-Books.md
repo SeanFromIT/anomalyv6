@@ -34,6 +34,13 @@ layout: page
 * <a title="Haunted Houses and Family Ghosts of Kentucky" target="_blank" href="https://amzn.to/44hHryQ">Haunted Houses and Family Ghosts of Kentucky (2001)</a>
 * <a title="Tales of Kentucky Ghosts" target="_blank" href="https://amzn.to/4leV6MZ">Tales of Kentucky Ghosts (2010)</a>
 
+## Robert Trundle, Ph.D.
+##### Dr. Trundle, an NKU professor, publishes on the topic of UFOs.
+* [Is E.T. Here? No Politically but Yes Scientifically and Theologically (2005)](https://amzn.to/41D4WAr){:target="_blank"}
+* [UFOs: Politics, God and Science: Philosophy on a Taboo Topic (2000)](https://amzn.to/4otL8th){:target="_blank"}
+* Illustrated News of the Unbelievable (19??) with George Filer
+* Extraterrestrial Intelligence: Challenge to Theology, Physics and Metaphysics (1994)
+
 ## Wanda Lou Willis
 ##### Indiana folklore and haunted locations.
 * <a title="Haunted Hoosier Trails: A Guide to Indiana's Famous Folklore Spooky Sites" target="_blank" href="https://amzn.to/3Tsatp9">Haunted Hoosier Trails: A Guide to Indiana's Famous Folklore Spooky Sites (2002)</a>
@@ -58,3 +65,4 @@ layout: page
 * <a title="The Skeptic's Guide to the Paranormal" target="_blank" href="https://amzn.to/4kt6nZ5">The Skeptic's Guide to the Paranormal, Lynne Kelly</a>
 * <a title="The Paranormal Investigator's Handbook" target="_blank" href="https://amzn.to/4eCbAMO">The Paranormal Investigator's Handbook, Hope & Townsend</a>
 * <a title="How to be a Ghost Hunter" target="_blank" href="https://amzn.to/4eHdJXG">How to be a Ghost Hunter, Richard Southall</a>
+* [Ghosted!: Exploring the Haunting Reality of Paranormal Encounters, Laythe, Houran, Dagnall, et. al.](https://amzn.to/41AS0uR){:target="_blank"}

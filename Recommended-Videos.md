@@ -496,12 +496,13 @@ layout: page
 
 ## Josh Gates & Crew
 ##### While his degree may be in archeology, Josh has investigated alongside enough serious investigators - and with seemingly unlimited television money, investigated so many paranormal claims across the world - that over the years that he's picked up a healthy skepticism and approach.
-* [Expedition X](https://amzn.to/4oFIctN){:target="_blank"}
-* [Destination Truth](https://amzn.to/3J0WyV6){:target="_blank"}
-* [Expedition Unknown](https://amzn.to/4mPjSUz){:target="_blank"}
-* [Expedition Unknown: Hunt for Extraterrestrials](https://amzn.to/41u92L4){:target="_blank"}
-* [Expedition Unknown: Hunt for the Yeti](https://amzn.to/4lfAKTa){:target="_blank"}
-* [Expedition Unknown: Search for the Afterlife](https://amzn.to/4lpyngI){:target="_blank"}
-* [Expedition Files](https://amzn.to/4lgDlMz){:target="_blank"}
-* [Legendary Locations](https://amzn.to/4fo7rwh){:target="_blank"}
-* [Ghost Nation](https://amzn.to/458o8bK){:target="_blank"}
+* [Expedition X (2020-Present)](https://amzn.to/4oFIctN){:target="_blank"}
+* [Expedition Files (2024-Present)](https://amzn.to/4lgDlMz){:target="_blank"}
+* [Destination Truth (2007-2012)](https://amzn.to/3J0WyV6){:target="_blank"}
+* Josh Gates' Destination Truth (2017-2018)
+* [Expedition Unknown (2015-Present)](https://amzn.to/4mPjSUz){:target="_blank"}
+* [Expedition Unknown: Hunt for the Yeti (2016)](https://amzn.to/4lfAKTa){:target="_blank"}
+* [Expedition Unknown: Hunt for Extraterrestrials (2017)](https://amzn.to/41u92L4){:target="_blank"}
+* [Expedition Unknown: Search for the Afterlife (2018)](https://amzn.to/4lpyngI){:target="_blank"}
+* [Legendary Locations (2017-2019)](https://amzn.to/4fo7rwh){:target="_blank"}
+* [Ghost Nation (2019-2021)](https://amzn.to/458o8bK){:target="_blank"}
