@@ -63,9 +63,10 @@ entertainment purposes only. They are not, therefore, meant for serious investig
 The following devices are offered for more reputable investigations:
 * [REM pod](https://amzn.to/45I7vDL){:target="_blank"}: A trimmed-down theremin with lights and sometimes audio indicators or temperature sensors added.
 * [Laser projection grid](https://amzn.to/4lmj9Jc){:target="_blank"}: For detecting dips in light, possibly caused by "shadows." Combine with light meter for more precise measurements.
-* [Masking tape, flour, powder, or salt](https://amzn.to/45cOMjI){:target="_blank"}: Can be used to block entrances to a room during an investigation to detect footprints and hoaxes. A window is considered an entrance to a room, so be sure to place the masking tape on it as well. 
-* [Full spectrum flashlight](https://www.ghoststop.com/phasm-light/){:target="_blank"}: As an alternative to infrared, you may want to consider full spectrum and/or ultraviolet lighting for your experiments
-* [Full spectrum (hyperspectral) camera](https://www.ghoststop.com/phasm-cam/){:target="_blank"}: A camera with various filters removed so that you can capture VNIR, infrared and ultraviolet ranges.
+* [Masking tape, flour, powder, or salt](https://amzn.to/45cOMjI){:target="_blank"}: Can be used to block entrances to a room during an investigation to detect footprints and hoaxes. A window is considered an entrance to a room, so be sure to place the masking tape on it as well. [Even the "professionals" run into hoaxes](https://www.reddit.com/r/GhostHunters/comments/1fu019k/rewatching_some_episodes_hoax_episodes_make_me_so/){:target="_blank"}.
+* [Full spectrum flashlight](https://www.ghoststop.com/phasm-light?rfsn=8792913.4014402){:target="_blank"}: As an alternative to infrared, you may want to consider full spectrum and/or ultraviolet lighting for your experiments
+* [Full spectrum (hyperspectral) camera](https://www.ghoststop.com/phasm-cam?rfsn=8792913.4014402){:target="_blank"}: A camera with various filters removed so that you can capture VNIR, infrared and ultraviolet ranges.
+* [Carbon monoxide detector](https://amzn.to/4ltmUwv){:target="_blank"}: Symptoms could resemble a haunting.
 * Air ion meter: Some believe that positive or negative ions buildup immediately before a ghost experience.
 
 **A note about magnetic vs. digital storage mediums**:<br />

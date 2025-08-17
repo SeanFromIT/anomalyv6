@@ -31,11 +31,10 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'listen', '~> 3.9' if Gem.win_platform?
 
 gem "nokogiri", ">= 1.11.4"
 
-#Ruby 3.2 requires liquid 4.0.4 https://github.com/jekyll/jekyll/issues/9233
-#gem "liquid", ">= 4.0.4"
 gem "bigdecimal", "~> 3.1.9"
 
 #Fix CVE-2017-10784 - 2.2.8 doesn't exist. 1.9.1 is the latest as of 3/31/25

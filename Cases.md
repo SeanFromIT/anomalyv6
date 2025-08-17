@@ -45,7 +45,7 @@ These classifications were initially proposed by [J. Allen Hynek](/history/JAlle
 | CRE-4 | <strong>Creature Encounters of the Fourth Kind</strong><br/>Physical or sexual contact with or an abduction by the creature(s). |  |
 | CRE-5 | <strong>Creature Encounters of the Fifth Kind</strong><br/>Deliberate human behavior followed by an obvious response by the creature(s). |  |
 | CRE-6 | <strong>Creature Encounters of the Sixth Kind</strong><br/>Bodily harm or death as a result of interaction with a creature. |  |
-| AB-1 | <strong>Anomalous Behavior of the First Kind</strong><br/>Anomalies that have no lasting physical effects. i.e. amorphous lights, unexplained explosions. |  |
+| AB-1 | <strong>Anomalous Behavior of the First Kind</strong><br/>Anomalies that have no lasting physical effects. i.e. amorphous lights, unexplained explosions. | [The Windsor Hum](https://www.npr.org/2020/08/04/898853311/it-took-a-pandemic-mystery-of-windsor-hum-is-solved){:target="_blank"} |
 | AB-2 | <strong>Anomalous Behavior of the Second Kind</strong><br/>Anomalies that have lasting physical effects. i.e. crop circles (areas of flattened grass, corn, soy, etc.). |  |
 | AB-3 | <strong>Anomalous Behavior of the Third Kind</strong><br/>Near-death experiences (NDEs), out-of-body experiences (OBEs), religious miracles, and similar visions. |  |
 | AB-4 | <strong>Anomalous Behavior of the Fourth Kind</strong><br/>Anomalous reports of injuries and deaths. i.e. SHC (spontaneous human combustion), unexplained wounds, as well as permanent healing that results from a paranormal experience. |  |
