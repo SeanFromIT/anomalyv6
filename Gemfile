@@ -33,7 +33,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'listen', '~> 3.9' if Gem.win_platform?
 
-gem "nokogiri", ">= 1.18.8"
+gem "nokogiri", ">= 1.18.9"
 
 gem "bigdecimal", "~> 3.1.9"
 
