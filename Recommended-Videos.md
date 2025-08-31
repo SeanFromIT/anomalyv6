@@ -113,7 +113,7 @@ layout: page
   </a>
 </div>
 
-##### Charles Hickson Abduction Case (October 11, 1973)
+##### Charles Hickson \[Pascagoula] Abduction Case (October 11, 1973)
 
 <div style="display: inline-flex; align-items: center;">
   <!-- Video Thumbnail -->
