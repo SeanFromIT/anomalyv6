@@ -8,12 +8,12 @@ layout: page
 [< Return to History Home](/History-TriState)
 
 ### Rick Hilberg
- Berea, Ohio resident Rick Hilberg’s fascination with the possibility of alien visitations was piqued during a debate on UFOs, held in his classroom at McKinley Elementary School in Cleveland in 1958. Hilberg chose the anti-UFO side for his presentation but gradually became impressed with the evidence on the pro side of the question, and that led him to a lifelong interest in UFOs and related phenomena.
- “I really got active when I began publishing a small newsletter, *UFO Magazine*, for fellow UFO buffs when I entered high school in 1962.” This gradually led to publishing a number of UFO and fortean publications over the years.
+Berea, Ohio resident Rick Hilberg’s fascination with the possibility of alien visitations was piqued during a debate on UFOs, held in his classroom at McKinley Elementary School in Cleveland in 1958. Hilberg chose the anti-UFO side for his presentation but gradually became impressed with the evidence on the pro side of the question, and that led him to a lifelong interest in UFOs and related phenomena.
+“I really got active when I began publishing a small newsletter, *UFO Magazine*, for fellow UFO buffs when I entered high school in 1962.” This gradually led to publishing a number of UFO and fortean publications over the years.
  
- In 1964, he organized what would become [NUFOC](NUFOC) with Allan Manak, Al Greenfield, and Dale Rettig. In 1966, he cofounded [UAPA](UAPA) with Allan Manak. He was an associate editor of Flying Saucer Digest from 1970-1999, at which point he took on full editorship. Rick was featured as a UFO expert on the 2009 Gray Barker hoaxer documentary, [Shades of Gray](https://www.imdb.com/title/tt1504700/?ref_=nm_knf_t_1){:target="_blank"}.
+In 1964, he organized what would become [NUFOC](NUFOC) with Allan Manak, Al Greenfield, and Dale Rettig. In 1966, he cofounded [UAPA](UAPA) with Allan Manak and became one of the first investigators of the [Portage County, OH UFO Chase](https://web.archive.org/web/20240503075022/https://www.timesonline.com/story/news/local/2018/10/18/famous-86-mile-ufo-chase/9513751007/){:target="_blank"}. He was an associate editor of Flying Saucer Digest from 1970-1999, at which point he took on full editorship. Rick was featured as a UFO expert on the 2009 Gray Barker hoaxer documentary, [Shades of Gray](https://www.imdb.com/title/tt1504700/?ref_=nm_knf_t_1){:target="_blank"}.
  
- Rick retired from active publishing in 2018 and discontinued Flying Saucer Digest at that time, which holds the record for the oldest continuously running US UFO newsletter (dating back to 1967). He remains active in [CUP](CUP). 
+Rick retired from active publishing in 2018 and discontinued Flying Saucer Digest at that time, which holds the record for the oldest continuously running US UFO newsletter (dating back to 1967). He remains active in [CUP](CUP). 
 
 In 2019, Rick donated his UFO archives to the [AFU](AFU).
 

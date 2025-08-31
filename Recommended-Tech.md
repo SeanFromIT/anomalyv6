@@ -27,6 +27,7 @@ layout: page
 * [Decibel meter](https://amzn.to/45t8vdw){:target="_blank"}: For measuring sound intensity.
 * [Radio spectrum analyzer](https://amzn.to/45ulOuu){:target="_blank"}: For pinpointing transmitted frequency bands.
 * [Motion sensor lights](https://amzn.to/3UmEFTe){:target="_blank"}: For detecting motion.
+* [Trail cameras](https://amzn.to/4mMJj94){:target="_blank"}: For long-term and/or remote investigations.
 * [Atmospheric data logger](https://amzn.to/45xwIzG){:target="_blank"}: Capture wind speed (anemometer), pressure (barometer), and humidity (hygrometer) data.
 * Extra batteries and storage cards for all equipment.
 
@@ -66,7 +67,7 @@ The following devices are offered for more reputable investigations:
 * [Masking tape, flour, powder, or salt](https://amzn.to/45cOMjI){:target="_blank"}: Can be used to block entrances to a room during an investigation to detect footprints and hoaxes. A window is considered an entrance to a room, so be sure to place the masking tape on it as well. [Even the "professionals" run into hoaxes](https://www.reddit.com/r/GhostHunters/comments/1fu019k/rewatching_some_episodes_hoax_episodes_make_me_so/){:target="_blank"}.
 * [Full spectrum flashlight](https://www.ghoststop.com/phasm-light?rfsn=8792913.4014402){:target="_blank"}: As an alternative to infrared, you may want to consider full spectrum and/or ultraviolet lighting for your experiments
 * [Full spectrum (hyperspectral) camera](https://www.ghoststop.com/phasm-cam?rfsn=8792913.4014402){:target="_blank"}: A camera with various filters removed so that you can capture VNIR, infrared and ultraviolet ranges.
-* [Carbon monoxide detector](https://amzn.to/4ltmUwv){:target="_blank"}: Symptoms could resemble a haunting.
+* [Carbon monoxide detector](https://amzn.to/4ltmUwv){:target="_blank"}: Symptoms could resemble a haunting. For non-residential enclosed hunts, such as caves, consider a [multi-gas meter](https://amzn.to/4fDUNcA){:target="_blank"}.
 * Air ion meter: Some believe that positive or negative ions buildup immediately before a ghost experience.
 
 **A note about magnetic vs. digital storage mediums**:<br />

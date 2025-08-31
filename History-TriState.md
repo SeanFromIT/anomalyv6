@@ -5,6 +5,9 @@ description: >-
   A history of paranormal organizations in or linked to the Tri-State area (OH, KY, IN).
 layout: page
 ---
+
+"It might seem odd that so many stories about \[UFO] crash debris come from Ohio, however...Ohio has been one of the nation's leading industrial and technological states and is the home of Wright-Patterson Air Force Base, thus, it's not surprising that if alien debris existed, it might find its way to Ohio." -Dr. Irena Scott, MORA Cofounder
+
 ## Tri-State Paranormal Organization History
 - [Aerial Phenomena Research Organization (APRO)](history/APRO)
 - [Archives for UFO Research (AFU)](history/AFU)
@@ -51,6 +54,7 @@ layout: page
 - [Pat Packard](history/PatPackard)
 - [Francis Ridge](history/FrancisRidge)
 - [Ron Schaffner](history/RonSchaffner)
+- [Irena Scott](history/IrenaScott)
 - [Leonard Stringfield](history/LeonardStringfield)
 - [John Timmerman](history/JohnTimmerman)
 - [Kenny Young](history/KennyYoung)

@@ -14,15 +14,17 @@ early members had earlier been associated with [Aerial Phenomena Research Organi
 
 As of 1973, Larry Moyers (of Akron, Ohio) was the State Director for Ohio³. In 1999, William E. Jones'¹ [Mid-Ohio Research Associates (MORA)](MORA) was renamed, incorporated and reorganized as the Mutual UFO Network of Ohio to affiliate the organization with the national Mutual UFO Network (MUFON).² Mr. Jones remained OHMUFON State Director until the late 2010s⁸. After his death in 2022, [his UFO files](https://library.osu.edu/collections/SPEC.RARE.0018/summary-information){:target="_blank"} were donated to Ohio State University where they remain in the Rare Books & Manuscripts Library.
 
-As long as Mr. Jones' tenure was, it was not without controversy. He worked for Battelle until at least 2012, and sent his MUFON emails via their servers. Battelle has a long history in US government UFO studies dating back to Project Blue Book and the Robertson Panel⁹. Mr. Jones never clarified the relationship between his Ufology work and his employer. His MORA co-founder and Battelle co-worker, Dr. Irena Scott, discussed a meeting she and Mr. Jones had within Wright-Patterson Air Force Base in Dayton, Ohio:
+As long as Mr. Jones' tenure was, it was not without controversy. He worked for Battelle as "Senior Contracting Officer for Federal Projects"¹⁴ until at least 2012, and sent his MUFON emails via their servers. Battelle has a long history in US government UFO studies dating back to Project Blue Book and the Robertson Panel⁹. Mr. Jones never clarified the relationship between his Ufology work and his employer. His MORA co-founder and Battelle co-worker, [Dr. Irena Scott](IrenaScott), paints the two as trying to uncover the Ufological history of Battelle while also, seemingly, pursuing new UFO-related government contracts. Jones told Scott that he had "questioned \[Battelle metallurgist] Westerman, but he had not disclosed anything suggesting that \[Battelle] worked with alien artifacts."¹⁴
 
-> Bill Jones, Battelle contract officer, and I attended a UFO meeting in [the Blue Room building, part of the National Air and Space Intelligence Center (NASIC)], which we wrote up in *The Ohio UFO Notebook*.  I [took] photos of the building ... in the Wright-Patterson AFB secured area.¹⁰
+She went on to describe a meeting she and Mr. Jones had within Wright-Patterson Air Force Base in Dayton, Ohio in April 1993¹⁵:
 
-NASIC was later publicly revealed to be in the business of analyzing Unidentified Aerial Phenomena (UAP).¹² Scott also claims to have worked for the Defense Intelligence Agency.¹⁴
+> Bill Jones, Battelle contract officer, and I attended a UFO meeting in \[the Blue Room building, part of the National Air and Space Intelligence Center (NASIC)], which we wrote up in *The Ohio UFO Notebook* \[MUFON of Ohio Newsletter #6 (July, 1993) and "Bruce Ashcroft." Ohio UFO Notebook 10 (1995): 2-4].  I \[took] photos of the building ... in the Wright-Patterson AFB secured area.¹⁰
+
+NASIC was later publicly revealed to be in the business of analyzing Unidentified Aerial Phenomena (UAP).¹² 
 
 Ufologists [Leonard H. Stringfield](LeonardStringfield), [Kenny Young](KennyYoung), and [Donnie Blessing](DonnieBlessing) have served as State Section
 Directors for Southwestern
-Ohio.⁴ Dr. Irena Scott has also served as a State Section Director (section unknown)¹¹ and [Pat Packard](PatPackard) as a "State Regional Director."
+Ohio.⁴ Dr. Irena Scott has also served as a State Section Director (likely for the Columbus area)¹¹ and [Pat Packard](PatPackard) as a "State Regional Director." Scott also claims to have helped Walt Andrus edit "a number of" MUFON Symposium Proceedings.¹⁴
 
 From 2012 to 2013, after the disastrous tenure of Clifford Clift, David MacDonald took over MUFON and Cincinnati served briefly as the international headquarters of MUFON out of a location near Lunken Airport.⁶ MacDonald's prior MUFON donations had earned him a Board seat, Kentucky MUFON (much to the dismay of long time KYMUFON State Director [Earle Benezet](EarleBenezet)), and membership in the "STAR" rapid response "strike team." Jan Harzan took over and moved the headquarters to Irvine, California in 2013. In June 2021, the headquarters moved back to Lunken Airport where it remains to this day.⁷
 
@@ -65,4 +67,4 @@ References {#references}
 11. [Dr. Irena Scott, UFO Lies and Cover-Ups. June 12, 2017 Interview on Open Minds UAP News, Alejandro Rojas.](https://www.tapesearch.com/episode/dr-irena-scott-ufo-lies-and-cover-ups/VJRP3Lq6AkDR3erSk5DWtP){:target="_blank"}
 12. [Intelligence Officials Say U.S. Has Retrieved Craft of Non-Human Origin](https://thedebrief.org/intelligence-officials-say-u-s-has-retrieved-non-human-craft/){:target="_blank"}
 13. [Ohio UFOs (and many others) Volume 1](https://amzn.to/4ftJbcl){:target="_blank"}
-14. [UFOs and the Millennium](https://www.abebooks.com/9781570744396/UFOs-Millennium-Creations-Edge-Series-1570744394/plp){:target="_blank"}
+14. [Sacred Corridors](https://amzn.to/4mWLVBl){:target="_blank"}

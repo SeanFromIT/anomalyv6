@@ -16,6 +16,10 @@ seriously. His contacts in the medical field gave him the first
 descriptions of the alien bodies allegedly recovered at Roswell or
 elsewhere.¹
 
+Privately, Stringfield worked as Director of Public Relations and
+Marketing Services for DuBois Chemicals, a division of Chemed
+Corporation, Cincinnati.
+
 World War II sighting {#world_war_ii_sighting}
 ---------------------
 
@@ -40,9 +44,9 @@ then wrote:
 
 > "This one experience near Iwo Jima was proof enough to me in 1950 that the 'foo fighter' of World War II--sometimes dubbed 'Kraut fireball' in the European Theater--and the flying saucer were one and the same kind of machine and from the same source: outer space."
 
-Uneasy about the "rumored loss of Air Force interceptors chasing UFOs,
+Uneasy about the loss of Air Force interceptors chasing UFOs \[[Mantell 1948](/case/Mantell1948), [Moncla/Wilson 1953](https://www.history.com/articles/ufo-fighter-jet-disappears-over-lake-superior-kinross-incident)],
 the low-level green fireballs over
-Sweden and the southwestern United States" and his
+Scandinavia \[[Hessdalen Lights](https://www.hessdalen.org/)] and the southwestern United States and his
 own experience, Stringfield related he was concerned about the "intent"
 behind the probes. In March 1954, he created [Civilian Research, Interplanetary Flying Objects (CRIFO)](CRIFO), and published a monthly
 newsletter, *ORBIT*.
@@ -102,17 +106,7 @@ same year, he became public relations adviser for the newly formed
 civilian UFO group [NICAP](NICAP) under the direction of
 Donald Keyhoe, a friend of his since 1953.
 He held the post until 1972, at which point he continued his private UFO
-research. It was during the 1970s that Stringfield began collecting
-witness accounts of UFO crash recoveries, including alien bodies. Many
-of these stories centered around activities at nearby Wright-Patterson
-AFB in Dayton, Ohio.
-
-Stringfield first publicly reported his so-called "crash/retrieval"
-findings at a 1978 MUFON Symposium. He said he
-received two death threats beforehand, but was never sure who was behind
-them or how serious they were. Thereafter, he self-published seven
-"Status Reports" on new crash-retrieval research until his death in
-1994.
+research. 
 
 From 1967-1969, Stringfield served as an "Early Warning Coordinator" for
 the Condon Committee, a
@@ -127,9 +121,30 @@ in 1978, during the 32nd General
 Assembly of the UN,
 Stringfield served as his adviser.
 
-Privately, Stringfield worked as Director of Public Relations and
-Marketing Services for DuBois Chemicals, a division of Chemed
-Corporation, Cincinnati.
+Crash/Retrieval {#crash_retrieval}
+----------------------
+
+It was during the 1970s that Stringfield began collecting
+witness accounts of UFO crash recoveries, including alien bodies. Many
+of these stories centered around activities at nearby Wright-Patterson
+AFB in Dayton, Ohio.
+
+Stringfield first publicly reported his so-called "crash/retrieval"
+findings at the 1978 MUFON Symposium in Dayton, OH. He said he
+received two death threats beforehand, but was never sure who was behind
+them or how serious they were. Thereafter, he self-published seven
+"Status Reports" on new crash-retrieval research until his death in
+1994.
+
+On the morning of October 27th, 1973, Stringfield met in-person with [J. Allen Hynek](JAllenHynek) for possibly the first time, while staying in Dayton, OH.
+This same day, in Columbus, Hynek shared with Jennie Zeidman that he heard that after a UFO crash around 1962, bodies were taken to Holloman AFB near Alamogordo, NM.
+He claimed the Air Force told him about it, not Stringfield, though. Stringfield went on to mention the 1962 Holloman crash in his 1978 MUFON talk.⁴
+
+Stringfield had over 50 government-connected informants. 
+A rumor circulated that when retired astronaut Neil Armstrong was on the board of directors of a Cincinnati bank,
+Armstrong and Hynek approached Stringfield with a proposal to protect
+the informant identities while adding credibility to their stories. Armstrong asked Stringfield to put the list of names in
+a safety deposit box in his bank. That way, when Stringfield died, the names wouldn't be lost. Stringfield refused.³
 
 Noted crash/retrieval cases {#noted_crashretrieval_cases}
 ---------------------------
@@ -176,4 +191,5 @@ References {#references}
 
 1. [SCIFI.COM UFOLOGY Resource Center](https://web.archive.org/web/20071203181958/http://www.scifi.com/ufo/roswell/articles/018.html)
 2. Stringfield, Leonard H. UFO Crash/Retrievals: Amassing the Evidence: Status Report III. 1982: Self-published.
-
+3. [Scott, Irena](IrenaScott). [Sacred Corridors](https://amzn.to/4mWLVBl){:target="_blank"}
+4. Zeidman, Jennie. [J. Allen Hynek - A 'Rocket Man'](https://web.archive.org/web/20190630174400/mufonohio.com/mufono/hynek.html). 1999
