@@ -2,15 +2,18 @@
 date: 2025-07-20T04:37:56.303Z
 title: Cases
 description: >-
-  Case history of the Anomaly Response Network and associated organizations and/or individuals.
+  Case history of the Anomaly Response Network and associated organizations
+  and/or individuals.
 layout: page
 ---
+
 {% comment %}
+
 ## Anomaly Response Network Cases
 
 | ID | Incident Date/Era | Classification | Principal Investigator | Case File Name |
-| --- | --- | --- | --- | --- |
-| X | x/x/xxxx | xxx | xxx | xxx |
+| -- | ----------------- | -------------- | ---------------------- | -------------- |
+| X  | x/x/xxxx          | xxx            | xxx                    | xxx            |
 
 <br />
 {% endcomment %}
