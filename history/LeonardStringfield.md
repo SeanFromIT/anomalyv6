@@ -136,9 +136,7 @@ them or how serious they were. Thereafter, he self-published seven
 "Status Reports" on new crash-retrieval research until his death in
 1994.
 
-On the morning of October 27th, 1973, Stringfield met in-person with [J. Allen Hynek](JAllenHynek) for possibly the first time, while staying in Dayton, OH.
-This same day, in Columbus, Hynek shared with Jennie Zeidman that he heard that after a UFO crash around 1962, bodies were taken to Holloman AFB near Alamogordo, NM.
-He claimed the Air Force told him about it, not Stringfield, though. Stringfield went on to mention the 1962 Holloman crash in his 1978 MUFON talk.⁴
+On the morning of October 27th, 1973, Stringfield met in-person with [J. Allen Hynek](JAllenHynek) for possibly the first time, presumably at a hotel in Columbus. This same day Hynek shared with Jennie Zeidman that he heard that after a UFO crash around 1962, bodies were taken to Holloman AFB near Alamogordo, NM. He claimed the Air Force told him about it, not Stringfield. Stringfield went on to mention the 1962 Holloman crash in his 1978 MUFON talk.⁴
 
 Stringfield had over 50 government-connected informants. 
 A rumor circulated that when retired astronaut Neil Armstrong was on the board of directors of a Cincinnati bank,
