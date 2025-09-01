@@ -73,6 +73,11 @@ export default defineConfig({
             name: "url2",
             label: "URL2",
           },
+          {
+            type: "string",
+            name: "layout",
+            label: "collection"
+          }
         ],
       },
       {

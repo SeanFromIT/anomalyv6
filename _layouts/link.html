@@ -13,7 +13,8 @@ layout: default
     {% endif %}
     <div id="postNav">
         <ul class="fa-ul">
-        {% for link in site.links limit:10 %}
+        {% assign sorted_items = site.links | sort: 'date' | reverse %}
+        {% for link in sorted_items limit:10 %}
             <li>
                 <span class="fa-li"><i class="fa-solid fa-link"></i></span><a href="{{ link.url }}">{{ link.title1 }}</a>
             </li>
@@ -23,6 +24,9 @@ layout: default
                 </li>
             {% endif %}
         {% endfor %}
+            <li>
+				<span class="fa-li"><i class="fa-solid fa-link"></i></span><a href="/tags/">All Posts</a>
+			</li>
         </ul>
     </div>
 </section>

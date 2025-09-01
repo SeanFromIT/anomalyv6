@@ -8,5 +8,6 @@ date: 2025-08-31T22:15:21.013Z
 categories:
   - ufo
   - foia
+layout: link
 ---
 
