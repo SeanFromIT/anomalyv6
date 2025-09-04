@@ -83,12 +83,15 @@ module Jekyll
           @preview_text = get_content(source)
         end
 
+        #try getting preview image:
         if head_tag.css('meta[property="og:image"]').first
           @preview_img_url = head_tag.css('meta[property="og:image"]').first["content"]
         elsif head_tag.css('meta[name="twitter:image"]').first
           @preview_img_url = head_tag.css('meta[name="twitter:image""]').first["content"]
         elsif head_tag.css('link[rel="image_src"]').first
           @preview_img_url = head_tag.css('link[rel="image_src"]').first["href"]
+        else
+          @preview_img_url = "/assets/img/searchlight.gif"
         end
 
         @preview_content = "<div class='title'><h4><a href='#{@link_url}' rel='nofollow' target='_blank'>#{@preview_title.to_s}</a></h4></div><div class='content'><a href='#{@link_url}' rel='nofollow' target='_blank'><center><img alt='#{@preview_title.to_s}' width='290' src='#{@preview_img_url}' /></center><br />#{@preview_text.to_s}</a></div>"
