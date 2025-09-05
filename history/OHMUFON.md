@@ -12,13 +12,13 @@ layout: page
 MUFON was originally established as the **Midwest UFO Network** in Quincy, Illinois in 1969. Most of MUFON's
 early members had earlier been associated with [Aerial Phenomena Research Organization (APRO)](APRO). In 1973, it was renamed the Mutual UFO Network to reflect membership growing outside of the Midwest.
 
-As of 1973, Larry Moyers (of Akron, Ohio) was the State Director for Ohio³. In 1999, William E. Jones'¹ [Mid-Ohio Research Associates (MORA)](MORA) was renamed, incorporated and reorganized as the Mutual UFO Network of Ohio to affiliate the organization with the national Mutual UFO Network (MUFON).² Mr. Jones remained OHMUFON State Director until the late 2010s⁸. After his death in 2022, [his UFO files](https://library.osu.edu/collections/SPEC.RARE.0018/summary-information){:target="_blank"} were donated to Ohio State University where they remain in the Rare Books & Manuscripts Library.
+As of 1973, Larry Moyers (of Akron, Ohio) was the State Director for Ohio³. Fred Hays was the State Director immediately preceeding William E. Jones, who was appointed State Director in 1993¹⁶. In 1999, Jones' [Mid-Ohio Research Associates (MORA)](MORA) was renamed, incorporated and reorganized as the Mutual UFO Network of Ohio to affiliate the organization with the national Mutual UFO Network (MUFON).¹⸴² Mr. Jones remained OHMUFON State Director until the late 2010s⁸. After his death in 2022, [his UFO files](https://library.osu.edu/collections/SPEC.RARE.0018/summary-information){:target="_blank"} were donated to Ohio State University where they remain in the Rare Books & Manuscripts Library.
 
 As long as Mr. Jones' tenure was, it was not without controversy. He worked for Battelle as "Senior Contracting Officer for Federal Projects"¹⁴ until at least 2012, and sent his MUFON emails via their servers. Battelle has a long history in US government UFO studies dating back to Project Blue Book and the Robertson Panel⁹. Mr. Jones never clarified the relationship between his Ufology work and his employer. His MORA co-founder and Battelle co-worker, [Dr. Irena Scott](IrenaScott), paints the two as trying to uncover the Ufological history of Battelle while also, seemingly, pursuing new UFO-related government contracts. Jones told Scott that he had "questioned \[Battelle metallurgist] Westerman, but he had not disclosed anything suggesting that \[Battelle] worked with alien artifacts."¹⁴
 
-She went on to describe a meeting she and Mr. Jones had within Wright-Patterson Air Force Base in Dayton, Ohio in April 1993¹⁵:
+She went on to describe a meeting she and Mr. Jones had within Wright-Patterson Air Force Base in Dayton, Ohio in April 1995¹⁵:
 
-> Bill Jones, Battelle contract officer, and I attended a UFO meeting in \[the Blue Room building, part of the National Air and Space Intelligence Center (NASIC)], which we wrote up in *The Ohio UFO Notebook* \[MUFON of Ohio Newsletter #6 (July, 1993) and "Bruce Ashcroft." Ohio UFO Notebook 10 (1995): 2-4].  I \[took] photos of the building ... in the Wright-Patterson AFB secured area.¹⁰
+> Bill Jones, Battelle contract officer, and I attended a UFO meeting in \[the Blue Room building, part of the National Air and Space Intelligence Center (NASIC)], which we wrote up in ["Bruce Ashcroft." *Ohio UFO Notebook* 10 (1995): 2-4](https://files.afu.se/Downloads/Magazines/United%20States/Ohio%20UFO%20Notebook/Ohio%20UFO%20Notebook%20-%20No%2010%20-%201995.pdf){:target="_blank"}.  I \[took] photos of the building ... in the Wright-Patterson AFB secured area.¹⁰
 
 NASIC was later publicly revealed to be in the business of analyzing Unidentified Aerial Phenomena (UAP).¹² 
 
@@ -30,7 +30,7 @@ From 2012 to 2013, after the disastrous tenure of Clifford Clift, David MacDonal
 
 Publications {#publications}
 ------------
--   *[Ohio UFO Notebook](https://files.afu.se/Downloads/?dir=.%2FMagazines%2FUnited%20States%2FOhio%20UFO%20Notebook){:target="_blank"}* published 25 issues and a precursor supplement, beginning in July 1992 and ending in 2005. In some instances, the Ohio UFO Notebook was coupled with
+-   *[Ohio UFO Notebook](https://files.afu.se/Downloads/?dir=.%2FMagazines%2FUnited%20States%2FOhio%20UFO%20Notebook){:target="_blank"}* published 25 issues and a precursor supplement, beginning in July 1992 and ending in 2005. In some instances, the *Ohio UFO Notebook* was coupled with
     the Mutual UFO Network of Ohio Newsletter (for example, issue #6), but MORA remained the
     publisher.⁵ Beginning with issue #21 (2000), OHMUFON was the sole publisher.
 -   [Mutual UFO Network of Ohio Newsletter](https://www.mufonohio.com/newsletters.html){:target="_blank"} - Issued at least yearly
@@ -68,3 +68,5 @@ References {#references}
 12. [Intelligence Officials Say U.S. Has Retrieved Craft of Non-Human Origin](https://thedebrief.org/intelligence-officials-say-u-s-has-retrieved-non-human-craft/){:target="_blank"}
 13. [Ohio UFOs (and many others) Volume 1](https://amzn.to/4ftJbcl){:target="_blank"}
 14. [Sacred Corridors](https://amzn.to/4mWLVBl){:target="_blank"}
+15. [Sacred Corridors](https://amzn.to/4mWLVBl){:target="_blank"}, pp. 33.
+16. [*Ohio UFO Notebook* & MUFON of Ohio Combined Newsletter #6 (July, 1993)](https://files.afu.se/Downloads/Magazines/United%20States/Ohio%20UFO%20Notebook/Ohio%20UFO%20Notebook%20-%20No%2006%20-%201993.pdf){:target="_blank"}
