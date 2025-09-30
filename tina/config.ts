@@ -31,6 +31,16 @@ export default defineConfig({
         name: "link",
         label: "Links",
         path: "_links",
+        ui: {
+          filename: {
+            readonly: false,
+            slugify: (values) => {
+              const date = values.date ? new Date(values.date) : new Date();
+              const formattedDate = date.toISOString().slice(0, 10);
+              return `${formattedDate}`;
+            },
+          },
+        },
         defaultItem: () => {
           return {
             date: new Date().toISOString(),
