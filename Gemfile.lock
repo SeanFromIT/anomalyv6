@@ -89,6 +89,7 @@ GEM
     tzinfo-data (1.2025.2)
       tzinfo (>= 1.0.0)
     uri (1.0.3)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -104,10 +105,12 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   kramdown-parser-gfm (~> 1.1.0)
+  listen (~> 3.9)
   nokogiri (>= 1.18.9)
   open-uri (>= 0.5.0)
   ruby-readability (>= 0.7.2)
   tzinfo-data
+  wdm (>= 0.1.0)
   webrick (~> 1.9.1)
 
 BUNDLED WITH
