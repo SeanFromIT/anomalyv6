@@ -36,7 +36,7 @@ export default defineConfig({
             readonly: false,
             slugify: (values) => {
               const date = values.date ? new Date(values.date) : new Date();
-              const formattedDate = date.toISOString().slice(0, 10);
+              const formattedDate = date.toISOString();
               return `${formattedDate}`;
             },
           },
