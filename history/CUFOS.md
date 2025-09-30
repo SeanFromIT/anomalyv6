@@ -55,6 +55,11 @@ Local branches of CUFOS were known as [LAURAs](LAURA).
 
 Dr. Irena Scott claims to have been an investigator for CUFOS.²
 
+Publications {#publications}
+----------
+
+- [International UFO Reporter (IUR)](https://cufos.org/cufos-publications-databases/iur/){:target="_blank"} - 1976-2012.
+
 References {#references}
 ----------
 
