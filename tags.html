@@ -4,28 +4,31 @@ permalink: /tags/
 title: Tags
 ---
 <div id="archives">
-	{% capture category %}
-		{% for link in site.links %}
-			{% for category in link.categories %}
-				|{{ category }}
-			{% endfor %}
-		{% endfor %}
-	{% endcapture %}
-	{% assign sortedtags = category | strip_newlines | split: '|' | sort_natural %}
-	{% for tag in sortedtags %}
-		{% unless forloop.first %}
-			{% assign strippedtag = tag | strip %}
-			<h3 id="{{ strippedtag }}"><a name="{{ strippedtag }}" href="#{{ strippedtag }}">{{ strippedtag }}</a></h3>
-			<ul>
-			{% assign theseTags = site.links | where: "categories", strippedtag %}
-			{% for link in theseTags %}
-				<li><a rel="nofollow" target="_blank" href="{{ link.url1 }}">{{ link.title1 }} ({{ link.date | date: "%-d %B %Y" }})</a></li>
-				{% if link.title2 %}
-					<li><a rel="nofollow" target="_blank" href="{{ link.url2 }}">{{ link.title2 }} ({{ link.date | date: "%-d %B %Y" }})</a></li>
-				{% endif %}
-			{% endfor %}
-			</ul>
-		{% endunless %}
-	{% endfor %}
+	
+	{% assign unique_tags = "" | split: '|' %}
 
+	{% for link in site.links %}
+		{% for category in link.categories %}
+			{% capture item_to_add %}|{{category}}{% endcapture %}
+			{% if unique_tags contains item_to_add %}
+				{% comment %} Do nothing {% endcomment %}
+			{% else %}
+				{% assign unique_tags = unique_tags | push: item_to_add %}
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+	{% assign sortedtags = unique_tags | sort_natural %}
+	{% for tag in sortedtags %}
+		{% assign strippedtag = tag | strip | split: '|' %}
+		<h3 id="{{ strippedtag }}"><a name="{{ strippedtag }}" href="#{{ strippedtag }}">{{ strippedtag }}</a></h3>
+		<ul>
+		{% assign theseTags = site.links | where: "categories", strippedtag[1] %}
+		{% for link in theseTags %}
+			<li><a rel="nofollow" target="_blank" href="{{ link.url1 }}">{{ link.title1 }} ({{ link.date | date: "%-d %B %Y" }})</a></li>
+			{% if link.title2 %}
+				<li><a rel="nofollow" target="_blank" href="{{ link.url2 }}">{{ link.title2 }} ({{ link.date | date: "%-d %B %Y" }})</a></li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+	{% endfor %}
 </div>
