@@ -41,8 +41,12 @@ module Jekyll
       if cache_exists?(@link_url)
         @preview_content = read_cache(@link_url).to_s
       else
-        #the .read fixes utf-8 encoding issues with nokogiri
-        source = Nokogiri::HTML(URI.open(@link_url).read)
+        begin
+          #the .read fixes utf-8 encoding issues with nokogiri
+          source = Nokogiri::HTML(URI.open(@link_url, "User-Agent" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36").read)
+        rescue OpenURI::HTTPError => e
+          puts "Error fetching link preview for #{@link_url}: #{e.message}"
+        end
 
         #if you set the title, you probably want to override it
         @preview_title = @link_title
