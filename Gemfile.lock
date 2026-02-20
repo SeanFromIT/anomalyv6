@@ -55,9 +55,9 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    nokogiri (1.18.9-x64-mingw-ucrt)
+    nokogiri (1.19.1-x64-mingw-ucrt)
       racc (~> 1.4)
-    nokogiri (1.18.9-x86_64-linux-gnu)
+    nokogiri (1.19.1-x86_64-linux-gnu)
       racc (~> 1.4)
     open-uri (0.5.0)
       stringio
@@ -89,7 +89,6 @@ GEM
     tzinfo-data (1.2025.2)
       tzinfo (>= 1.0.0)
     uri (1.0.4)
-    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -105,12 +104,10 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   kramdown-parser-gfm (~> 1.1.0)
-  listen (~> 3.9)
   nokogiri (>= 1.18.9)
   open-uri (>= 0.5.0)
   ruby-readability (>= 0.7.2)
   tzinfo-data
-  wdm (>= 0.1.0)
   webrick (~> 1.9.1)
 
 BUNDLED WITH
