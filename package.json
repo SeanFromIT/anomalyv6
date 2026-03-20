@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "@tinacms/cli": "^2.1.11",
-        "tinacms": "^3.6.1"
+        "tinacms": "^3.6.3"
     },
     "devDependencies": {
         "@types/node": "^22.13.14"
