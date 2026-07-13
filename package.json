@@ -8,7 +8,7 @@
         "start": "tinacms build && \"bundle exec jekyll serve\""
     },
     "dependencies": {
-        "@tinacms/cli": "^2.5.3",
+        "@tinacms/cli": "^2.5.5",
         "tinacms": "^3.10.0"
     },
     "devDependencies": {
