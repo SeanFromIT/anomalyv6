@@ -23,7 +23,7 @@ lang: en-US
 google_analytics: G-KF79CSWPQN
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://test.anomalyresponse.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://anomalyresponse.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:title:output_ext
 
 logo: /assets/img/thumb_ep2.jpg
