@@ -1525,9 +1525,6 @@ packages:
       react: '>=16.14.0'
       yup: ^1.0.0
 
-  '@tinacms/search@1.2.24':
-    resolution: {integrity: sha512-iJ7v7LFsDH1l4I2etMbusxOukfDcZbFGZkFr4iyknf3ptlGkhyFm7QUQXqAzHf2HwkZ8D4ZCcs9V7hLaU9WaEw==}
-
   '@tinacms/search@1.2.25':
     resolution: {integrity: sha512-sKRPJJeWZZCANXJQ25AdT40EdCUb/TK64HXgkL9FwQc/O7THDtJ1+VbO36A/Ijr4i6fjh2OoVqSZNx4Iwtjx0g==}
 
@@ -6035,7 +6032,7 @@ snapshots:
       '@tinacms/graphql': 2.4.11(react@18.3.1)
       '@tinacms/metrics': 2.1.3
       '@tinacms/schema-tools': 2.10.0(react@18.3.1)(yup@1.7.1)
-      '@tinacms/search': 1.2.24(abstract-level@1.0.4)(react@18.3.1)(yup@1.7.1)
+      '@tinacms/search': 1.2.25(abstract-level@1.0.4)(react@18.3.1)(yup@1.7.1)
       '@vitejs/plugin-react': 4.7.0(vite@6.4.3(@types/node@22.17.2)(jiti@1.21.7)(yaml@2.9.0))
       altair-express-middleware: 7.3.6
       auto-bind: 4.0.0
@@ -6198,21 +6195,6 @@ snapshots:
       url-pattern: 1.0.3
       yup: 1.7.1
       zod: 3.25.76
-
-  '@tinacms/search@1.2.24(abstract-level@1.0.4)(react@18.3.1)(yup@1.7.1)':
-    dependencies:
-      '@tinacms/graphql': 2.4.11(react@18.3.1)
-      '@tinacms/schema-tools': 2.10.0(react@18.3.1)(yup@1.7.1)
-      memory-level: 1.0.0
-      search-index: 4.0.0(abstract-level@1.0.4)
-      sqlite-level: 2.1.1
-      stopword: 3.1.5
-    transitivePeerDependencies:
-      - abstract-level
-      - react
-      - react-native-b4a
-      - supports-color
-      - yup
 
   '@tinacms/search@1.2.25(abstract-level@1.0.4)(react@18.3.1)(yup@1.7.1)':
     dependencies:
