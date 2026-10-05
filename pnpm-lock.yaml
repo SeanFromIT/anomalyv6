@@ -1355,11 +1355,17 @@ packages:
   '@tinacms/graphql@3.0.0':
     resolution: {integrity: sha512-7ecZkbUjt/lGVRaIEBjfS8QWKTOrul9N/ewX+hI63GdtdAyZcvcxUOhvtADVDB6BH91G7jIxjb5OZq/Z32V9DA==}
 
-  '@tinacms/mdx@2.2.3':
-    resolution: {integrity: sha512-XlCjc1wy9/1Cornln0QZJhtFsm+436/VD/F+ofMJPDcaIqY6l7qSkTvAq6DWV1Rs7JL/jR3czkE4OavOBRjJtw==}
+  '@tinacms/mdx@2.3.0':
+    resolution: {integrity: sha512-5k+I8tPZzJwybmg1NBvn4bOoWsciuoRGtJdXelfdKx2/I5d60WIviSijsSrNJdHTFzT6wjZgyOkRWup0HqbI4Q==}
 
   '@tinacms/metrics@2.1.4':
     resolution: {integrity: sha512-Q9J4skaueRCTS5Tf2LFGzMdRDmOlDrA11y6EMd8u2/jrzQZw4XMXVhTq9aAbJ6ICmQ5PAzzSdPzMkne/XgJD6w==}
+
+  '@tinacms/schema-tools@2.10.1':
+    resolution: {integrity: sha512-jhLOC6r2OMjKp/2jpdFPbVyXPL1Vjbc+cFXASa/hM/FvFIkgFYWqxSbklsjP/26IEa5qXwZbMJ+nZExHoTUncg==}
+    peerDependencies:
+      react: '>=16.14.0'
+      yup: ^1.0.0
 
   '@tinacms/schema-tools@2.10.1':
     resolution: {integrity: sha512-jhLOC6r2OMjKp/2jpdFPbVyXPL1Vjbc+cFXASa/hM/FvFIkgFYWqxSbklsjP/26IEa5qXwZbMJ+nZExHoTUncg==}
@@ -2382,6 +2388,9 @@ packages:
   electron-to-chromium@1.5.409:
     resolution: {integrity: sha512-ChI4N44d0B4A6C8prnNjMOaGgE59fUyEVYcRYm2XEXIjMbbvF5i9UL1cblDbpGqiU0uS8FE8UcKxqZqTXdmzbQ==}
 
+  emoji-regex@9.2.2:
+    resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
+
   encodeurl@2.0.0:
     resolution: {integrity: sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmxnOkRBrg==}
     engines: {node: '>= 0.8'}
@@ -2443,6 +2452,10 @@ packages:
 
   estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
+
+  esutils@2.0.3:
+    resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
+    engines: {node: '>=0.10.0'}
 
   etag@1.8.1:
     resolution: {integrity: sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==}
@@ -5740,7 +5753,7 @@ snapshots:
       '@graphiql/toolkit': 0.11.3(@types/node@22.17.2)(graphql@15.8.0)
       '@monaco-editor/loader': 1.7.0
       '@radix-ui/react-popover': 1.1.23(@types/react@19.2.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@tinacms/mdx': 2.2.3(react@18.3.1)(yup@1.7.1)
+      '@tinacms/mdx': 2.3.0(react@18.3.1)(yup@1.7.1)
       final-form: 4.20.10
       graphiql: 4.1.2(@codemirror/language@6.0.0)(@emotion/is-prop-valid@0.8.8)(@types/node@22.17.2)(@types/react@19.2.6)(graphql@15.8.0)(immer@10.2.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(use-sync-external-store@1.6.0(react@18.3.1))
       graphql: 15.8.0
@@ -5860,7 +5873,7 @@ snapshots:
   '@tinacms/graphql@3.0.0(react@18.3.1)':
     dependencies:
       '@iarna/toml': 2.2.5
-      '@tinacms/mdx': 2.2.3(react@18.3.1)(yup@1.7.1)
+      '@tinacms/mdx': 2.3.0(react@18.3.1)(yup@1.7.1)
       '@tinacms/schema-tools': 2.10.1(react@18.3.1)(yup@1.7.1)
       abstract-level: 1.0.4
       date-fns: 4.1.0
@@ -5884,12 +5897,14 @@ snapshots:
       - react-native-b4a
       - supports-color
 
-  '@tinacms/mdx@2.2.3(react@18.3.1)(yup@1.7.1)':
+  '@tinacms/mdx@2.3.0(react@18.3.1)(yup@1.7.1)':
     dependencies:
       '@tinacms/schema-tools': 2.10.1(react@18.3.1)(yup@1.7.1)
       acorn: 8.18.0
       ccount: 2.0.1
+      emoji-regex: 9.2.2
       estree-util-is-identifier-name: 2.1.0
+      esutils: 2.0.3
       mdast-util-compact: 4.1.1
       mdast-util-directive: 2.2.4
       mdast-util-from-markdown: 1.3.0
@@ -5904,7 +5919,6 @@ snapshots:
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.1.0
       parse-entities: 4.0.1
-      prettier: 2.8.8
       remark: 14.0.2
       remark-gfm: 2.0.0
       remark-mdx: 2.3.0
@@ -5919,6 +5933,14 @@ snapshots:
       - yup
 
   '@tinacms/metrics@2.1.4': {}
+
+  '@tinacms/schema-tools@2.10.1(react@18.3.1)(yup@1.7.1)':
+    dependencies:
+      picomatch-browser: 2.2.6
+      react: 18.3.1
+      url-pattern: 1.0.3
+      yup: 1.7.1
+      zod: 3.25.76
 
   '@tinacms/schema-tools@2.10.1(react@18.3.1)(yup@1.7.1)':
     dependencies:
@@ -7054,6 +7076,8 @@ snapshots:
 
   electron-to-chromium@1.5.409: {}
 
+  emoji-regex@9.2.2: {}
+
   encodeurl@2.0.0: {}
 
   end-of-stream@1.4.5:
@@ -7125,6 +7149,8 @@ snapshots:
       '@types/unist': 2.0.11
 
   estree-walker@2.0.2: {}
+
+  esutils@2.0.3: {}
 
   etag@1.8.1: {}
 
@@ -9227,7 +9253,7 @@ snapshots:
       '@react-hook/window-size': 3.1.1(react@18.3.1)
       '@tanstack/react-table': 8.21.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tinacms/bridge': 0.3.1
-      '@tinacms/mdx': 2.2.3(react@18.3.1)(yup@1.7.1)
+      '@tinacms/mdx': 2.3.0(react@18.3.1)(yup@1.7.1)
       '@tinacms/schema-tools': 2.10.1(react@18.3.1)(yup@1.7.1)
       '@tinacms/search': 1.2.25(abstract-level@1.0.4)(react@18.3.1)(yup@1.7.1)
       '@udecode/cmdk': 0.2.2(@types/react@19.2.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
